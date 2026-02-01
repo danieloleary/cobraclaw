@@ -1,36 +1,52 @@
 #!/bin/bash
 PASS=0
+TESTS=0
 
-echo "🦀 Shell Claw - 17 tests"
+count_test() {
+    TESTS=$((TESTS+1))
+    if eval "$1"; then
+        PASS=$((PASS+1))
+    fi
+}
+
+echo "🦀 Shell Claw - Tests"
 echo "=================================="
 
-# emoji-lookup.sh
-bash scripts/emoji-lookup.sh "idea" | grep -q "💡" && PASS=$((PASS+1))
-bash scripts/emoji-lookup.sh "happy" | grep -q "😊" && PASS=$((PASS+1))
-bash scripts/emoji-lookup.sh "thinking" | grep -q "🤔" && PASS=$((PASS+1))
-bash scripts/emoji-lookup.sh "done" | grep -q "✅" && PASS=$((PASS+1))
-bash scripts/emoji-lookup.sh "thanks" | grep -q "🙏" && PASS=$((PASS+1))
-bash scripts/emoji-lookup.sh "work" | grep -q "💼" && PASS=$((PASS+1))
-bash scripts/emoji-lookup.sh "target" | grep -q "🎯" && PASS=$((PASS+1))
-bash scripts/emoji-lookup.sh "coding" | grep -q "💻" && PASS=$((PASS+1))
-bash scripts/emoji-lookup.sh "search" | grep -q "🔍" && PASS=$((PASS+1))
-bash scripts/emoji-lookup.sh "launch" | grep -q "🚀" && PASS=$((PASS+1))
+# emoji-lookup.sh (10 tests)
+count_test "bash scripts/emoji-lookup.sh 'idea' | grep -q '💡'"
+count_test "bash scripts/emoji-lookup.sh 'happy' | grep -q '😊'"
+count_test "bash scripts/emoji-lookup.sh 'thinking' | grep -q '🤔'"
+count_test "bash scripts/emoji-lookup.sh 'done' | grep -q '✅'"
+count_test "bash scripts/emoji-lookup.sh 'thanks' | grep -q '🙏'"
+count_test "bash scripts/emoji-lookup.sh 'work' | grep -q '💼'"
+count_test "bash scripts/emoji-lookup.sh 'target' | grep -q '🎯'"
+count_test "bash scripts/emoji-lookup.sh 'coding' | grep -q '💻'"
+count_test "bash scripts/emoji-lookup.sh 'search' | grep -q '🔍'"
+count_test "bash scripts/emoji-lookup.sh 'launch' | grep -q '🚀'"
 
-# emoji-suggest.sh
-bash scripts/emoji-suggest.sh "happy excited" | grep -q "😊 🙌 🎉" && PASS=$((PASS+1))
-bash scripts/emoji-suggest.sh "thinking problem" | grep -q "🤔 💭 🧠" && PASS=$((PASS+1))
-bash scripts/emoji-suggest.sh "great idea" | grep -q "💡 ✨ 🎯" && PASS=$((PASS+1))
-bash scripts/emoji-suggest.sh "bug code" | grep -q "🔧 🐛 🤔" && PASS=$((PASS+1))
-bash scripts/emoji-suggest.sh "thank you" | grep -q "🙏 ❤️ 💚" && PASS=$((PASS+1))
+# emoji-suggest.sh (5 tests)
+count_test "bash scripts/emoji-suggest.sh 'happy excited' | grep -q '😊 🙌 🎉'"
+count_test "bash scripts/emoji-suggest.sh 'thinking problem' | grep -q '🤔 💭 🧠'"
+count_test "bash scripts/emoji-suggest.sh 'great idea' | grep -q '💡 ✨ 🎯'"
+count_test "bash scripts/emoji-suggest.sh 'bug code' | grep -q '🔧 🐛 🤔'"
+count_test "bash scripts/emoji-suggest.sh 'thank you' | grep -q '🙏 ❤️ 💚'"
 
-# generate-dictionary.sh
+# analyze-context.sh (5 tests)
+count_test "bash scripts/analyze-context.sh 'congrats on the win' | grep -q 'celebration'"
+count_test "bash scripts/analyze-context.sh 'project deadline' | grep -q 'professional'"
+count_test "bash scripts/analyze-context.sh 'how does this work' | grep -q 'learning'"
+count_test "bash scripts/analyze-context.sh 'bug in production' | grep -q 'problem'"
+count_test "bash scripts/analyze-context.sh 'thanks for help' | grep -q 'personal'"
+
+# generate-dictionary.sh (4 tests)
 bash scripts/generate-dictionary.sh /tmp/test-dict.md >/dev/null 2>&1
-[ -f /tmp/test-dict.md ] && PASS=$((PASS+1))
-grep -q "My Personal Emoji Dictionary" /tmp/test-dict.md 2>/dev/null && PASS=$((PASS+1))
+count_test "[ -f /tmp/test-dict.md ]"
+count_test "grep -q 'My Personal Emoji Dictionary' /tmp/test-dict.md"
+count_test "grep -q 'Shell Claw Structure' /tmp/test-dict.md"
 rm -f /tmp/test-dict.md
 
 echo "=================================="
-echo "🦀 $PASS passed"
+echo "🦀 $PASS / $TESTS passed"
 echo ""
 
-[ $PASS -eq 17 ] && echo "✅ All tests pass" && exit 0 || echo "❌ Some failed" && exit 1
+[ $PASS -eq $TESTS ] && echo "✅ All tests pass" && exit 0 || echo "❌ Some failed" && exit 1

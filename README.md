@@ -14,7 +14,7 @@ clawhub install shell-claw
 
 # Test
 bash test-skill.sh
-# → 17 tests pass
+# → 23 tests pass
 ```
 
 ---
@@ -40,9 +40,14 @@ bash test-skill.sh
 ./scripts/emoji-lookup.sh "idea"      # → 💡
 ./scripts/emoji-lookup.sh "happy"     # → 😊
 
-# Get suggestions
-./scripts/emoji-suggest.sh "problem"  # → 🔧 🐛 🤔
-./scripts/emoji-suggest.sh "done"     # → ✅ 🎉 👍
+# Get suggestions for context
+./scripts/suggest-for-context.sh "congrats on the win"  # → 🎉 🏆 🙌 ✨
+./scripts/suggest-for-context.sh "bug in production"     # → 🔧 🐛 💥 🤔
+./scripts/suggest-for-context.sh "how does this work"    # → 📚 💡 🌟 🔍 🧠
+
+# Detect conversation type
+./scripts/analyze-context.sh "project deadline"         # → professional
+./scripts/analyze-context.sh "thanks for your help"    # → personal
 
 # Build your dictionary
 ./scripts/generate-dictionary.sh my-emojis.md
@@ -74,9 +79,10 @@ shell-claw/
 │   ├── EXAMPLE-BASIC.md  # 20 emojis
 │   └── EXAMPLE-ADVANCED.md # 85+ emojis
 └── scripts/
-    ├── emoji-lookup.sh
-    ├── emoji-suggest.sh
-    └── generate-dictionary.sh
+    ├── emoji-lookup.sh         # Find emoji by keyword
+    ├── emoji-suggest.sh        # Suggest emojis for context
+    ├── analyze-context.sh      # Detect conversation type
+    └── generate-dictionary.sh  # Build your dictionary
 ```
 
 ---
