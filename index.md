@@ -108,6 +108,21 @@ title: cobraclaw — Hard Shell. Cobra Strike. No Mercy.
     .btn-primary { background: var(--primary); color: #fff; }
     .btn-dark { background: var(--darker); color: #fff; border: 1px solid rgba(255,255,255,0.2); }
     .btn-dark:hover { background: #1a1a2e; }
+    .btn-cta {
+      background: linear-gradient(135deg, #ff9500 0%, #ff6b00 50%, #e94560 100%);
+      color: #fff;
+      font-size: 18px;
+      font-weight: 800;
+      padding: 20px 40px;
+      border-radius: 50px;
+      box-shadow: 0 8px 30px rgba(255,149,0,0.4);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .btn-cta:hover {
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 12px 40px rgba(255,149,0,0.5);
+    }
     
     /* Sections */
     .section { padding: 80px 20px; }
@@ -278,7 +293,7 @@ title: cobraclaw — Hard Shell. Cobra Strike. No Mercy.
       <div class="hero-emoji">🦀🥋</div>
       <h1>cobraclaw</h1>
       <p class="hero-tagline">Hard Shell. Cobra Strike. No Mercy.</p>
-      <p class="hero-subtitle">If OpenClaw was trained by Kreese... and evolved from a crab.</p>
+      <p class="hero-subtitle">Enough soft AI. Strike first. 🦀🥋</p>
       
       <div class="hero-badges">
         <div class="hero-badge">✅ <span>9/9</span> tests passing</div>
@@ -288,7 +303,7 @@ title: cobraclaw — Hard Shell. Cobra Strike. No Mercy.
       
       <div class="hero-cta">
         <a href="https://github.com/danieloleary/cobraclaw" class="btn btn-primary">⭐ Star on GitHub</a>
-        <a href="#install" class="btn btn-dark">Clone & Install</a>
+        <a href="#install" class="btn btn-cta">JOIN THE DOJO u2014 INSTALL COBRACLAW</a>
       </div>
     </div>
   </section>
@@ -516,6 +531,7 @@ title: cobraclaw — Hard Shell. Cobra Strike. No Mercy.
         <a href="https://github.com/danieloleary/cobraclaw/issues">Issues</a>
       </div>
       <p class="footer-motto">🦀 Hard shell. Eagle balance. Cobra strike. No mercy. 🥋</p>
+      <p style="margin-top: 12px; font-size: 10px; color: rgba(255,255,255,0.3);">"I'm helping… I think. It tastes like burning! 🔥" — Ralph</p>
     </div>
   </footer>
 
