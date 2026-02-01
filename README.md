@@ -4,6 +4,8 @@
 
 *If OpenClaw was taught emojis by Kreese.*
 
+[GitHub](https://github.com/danieloleary/Cobra-Claw) • [Install](clawhub install cobra-claw)
+
 ---
 
 ## Quick Start
@@ -124,11 +126,11 @@ Most AI assistants are soft. Cobra Claw is hard.
 
 Like Cobra Claw? Here's how to help:
 
-- ⭐ **Star the repo** — Spread the doctrine
-- 🐙 **Follow @Danieloleary** — More AI experiments
+- ⭐ **[Star the repo](https://github.com/danieloleary/Cobra-Claw)** — Spread the doctrine
+- 🐙 **[Follow @Danieloleary](https://twitter.com/Danieloleary)** — More AI experiments
 - 📢 **Share with warriors** — Word of mouth matters
-- 🐛 **Report issues** — Strengthen the dojo
+- 🐛 **[Report issues](https://github.com/danieloleary/Cobra-Claw/issues)** — Strengthen the dojo
 
 ---
 
-*Built by @Danieloleary — Strike first. 🦀*
+*Built by [@Danieloleary](https://twitter.com/Danieloleary) — Strike first. 🦀*
