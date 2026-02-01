@@ -14,41 +14,13 @@ clawhub install shell-claw
 
 # Test
 bash test-skill.sh
-# → 18 tests pass
-```
-
----
-
-## What You Get
-
-**85+ emojis** organized for conversation:
-
-| Category | Count | Use For |
-|----------|-------|---------|
-| Core | 20 | Essential responses |
-| Work | 15 | Professional context |
-| Emotions | 15 | Feelings, reactions |
-| Actions | 15 | Doing, building, launching |
-| Nature | 10 | Time, seasons, weather |
-| Special | 10 | Celebrations, milestones |
-
----
-
-## Use the Scripts
-
-```bash
-# Quick emoji lookup
-./scripts/emoji-lookup.sh "idea"      # → 💡
-./scripts/emoji-lookup.sh "happy"     # → 😊
-./scripts/emoji-lookup.sh "done"      # → ✅
-
-# Generate your emoji dictionary
-./scripts/generate-dictionary.sh my-emojis.md
 ```
 
 ---
 
 ## The Framework
+
+Three pillars. Any emoji. Purposeful.
 
 ```
 🦀 Great question! ✊ Here's the approach:
@@ -59,25 +31,48 @@ bash test-skill.sh
 
 ---
 
+## What You Get
+
+| File | Purpose |
+|------|---------|
+| SKILL.md | When to use Shell Claw |
+| PATTERNS.md | Framework + emoji categories |
+| CATEGORIES.md | Emoji organization |
+| TEMPLATE.md | Build your voice |
+| scripts/emoji-lookup.sh | CLI quick lookups |
+
+---
+
+## Emoji Categories
+
+| Category | Examples |
+|----------|----------|
+| Core | 💡 ✅ 🤔 ✊ 🦀 |
+| Celebration | 🎉 🏆 🙌 ✨ |
+| Work | 💼 🎯 📊 🤝 |
+| Emotions | 😊 ❤️ 💚 🙏 |
+| Actions | 🔧 🚀 🎯 💪 |
+| Nature | 🌊 🌙 ☀️ ❄️ |
+| Time | ⏰ ⏳ 📅 🔄 |
+| Tech | 💻 📱 🖥️ 💾 |
+| Focus | 🎯 🔍 🧠 💭 |
+| Close | 💥 ✅ 🎬 |
+
+**Use any emoji. Use it with purpose.**
+
+---
+
 ## Files
 
 ```
 shell-claw/
-├── SKILL.md              # This file
-├── PATTERNS.md           # Framework reference
-├── CATEGORIES.md         # Emoji organization
-├── TEMPLATE.md           # Copy and customize
-├── EXAMPLE-ADVANCED.md   # Full 85+ emoji pack
+├── SKILL.md
+├── PATTERNS.md
+├── CATEGORIES.md
+├── TEMPLATE.md
 └── scripts/
-    ├── emoji-lookup.sh   # Quick CLI lookups
-    └── generate-dictionary.sh
+    └── emoji-lookup.sh
 ```
-
----
-
-## Privacy
-
-Framework only. Your emoji dictionary stays in your workspace.
 
 ---
 
