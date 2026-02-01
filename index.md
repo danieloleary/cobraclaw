@@ -282,6 +282,19 @@ title: cobraclaw — Hard Shell. Cobra Strike. No Mercy.
       display: block;
       font-family: monospace;
     }
+    .wax-detail {
+      color: #aaa;
+      font-size: 11px;
+      margin-top: 10px;
+      font-style: italic;
+    }
+    .wax-motto {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 18px;
+      color: #FFD700;
+      font-weight: 600;
+    }
     
     /* Install */
     .install-box { max-width: 650px; margin: 0 auto 50px; background: rgba(0,0,0,0.2); border-radius: 16px; padding: 36px; }
@@ -612,7 +625,7 @@ title: cobraclaw — Hard Shell. Cobra Strike. No Mercy.
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">Training: Wax On, Wax Off</h2>
-        <p class="section-subtitle">Mr. Miyagi's secret. Repetition builds mastery.</p>
+        <p class="section-subtitle">Mr. Miyagi's secret. Repetition builds claw reflex.</p>
       </div>
       
       <div class="wax-box">
@@ -622,31 +635,37 @@ title: cobraclaw — Hard Shell. Cobra Strike. No Mercy.
           <div class="wax-card">
             <div class="wax-icon">👊</div>
             <h4>Wax On</h4>
-            <p>Establish presence</p>
+            <p>Build presence/context</p>
             <code>👊 Great question!</code>
+            <p class="wax-detail">Establish your shell first</p>
           </div>
           
           <div class="wax-card">
             <div class="wax-icon">💥</div>
             <h4>Wax Off</h4>
-            <p>Strike with precision</p>
+            <p>Cut fluff, precise strike</p>
             <code>💡 Key insight...</code>
+            <p class="wax-detail">Remove everything unnecessary</p>
           </div>
           
           <div class="wax-card">
             <div class="wax-icon">🦅</div>
-            <h4>Balance</h4>
-            <p>Eagle Fang harmony</p>
+            <h4>Eagle Balance</h4>
+            <p>Weigh before snap</p>
             <code>🦅 Strike with honor</code>
+            <p class="wax-detail">Honor + strength = victory</p>
           </div>
           
           <div class="wax-card">
             <div class="wax-icon">🔄</div>
             <h4>Repeat</h4>
             <p>Master through practice</p>
-            <code>Daily practice</code>
+            <code>Daily drills</code>
+            <p class="wax-detail">Repetition builds claw reflex</p>
           </div>
         </div>
+        
+        <p class="wax-motto">🦀 Repetition builds claw reflex. 💥 Strike hard. 🥋</p>
       </div>
     </div>
   </section>
