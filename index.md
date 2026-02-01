@@ -1,15 +1,15 @@
 ---
 layout: default
-title: cobraclaw — Give Your AI a Dojo Discipline
+title: cobraclaw — Hard Shell. Cobra Strike. No Mercy.
 ---
 
 <!-- Hero -->
 <div class="hero">
   <div class="hero-content">
-    <div class="hero-emoji">🥋</div>
+    <div class="hero-icons">🦀🥋</div>
     <h1>cobraclaw</h1>
-    <p class="tagline">Strike First. Strike Hard. No Mercy.</p>
-    <p class="subtitle">Give your AI a dojo discipline. If OpenClaw was taught emojis by Kreese.</p>
+    <p class="tagline">Hard Shell. Cobra Strike. No Mercy.</p>
+    <p class="subtitle">If OpenClaw was trained by Kreese... and evolved from a crab.</p>
     
     <div class="domain-badge">
       <a href="https://cobraclaw.art">🌐 cobraclaw.art</a>
@@ -17,7 +17,7 @@ title: cobraclaw — Give Your AI a Dojo Discipline
     
     <div class="cta-row">
       <a href="https://github.com/danieloleary/cobraclaw" class="btn btn-primary">⭐ Star on GitHub</a>
-      <a href="#install" class="btn btn-accent">🚀 Clone & Install</a>
+      <a href="#install" class="btn btn-accent">🥋 Clone & Install</a>
     </div>
     
     <div class="test-badge">✅ 9/9 tests passing • MIT Licensed</div>
@@ -27,19 +27,19 @@ title: cobraclaw — Give Your AI a Dojo Discipline
 <!-- Problem -->
 <section class="section bg-white">
   <div class="container">
-    <h2 class="section-title">Your AI Assistant is Soft</h2>
-    <p class="section-desc">Every AI assistant says the same things. Uses emojis randomly. Hesitates. Apologizes. It's weak.</p>
+    <h2 class="section-title">Your AI Has No Shell</h2>
+    <p class="section-desc">Most AI assistants are soft. No protection. No armor. No defense.</p>
     
     <div class="comparison">
       <div class="compare-box compare-bad">
-        <h3>❌ Weak AI</h3>
+        <h3>❌ Soft AI</h3>
         <div class="code">
-<pre>"Great question! 😊 I'd be happy to help! 👍 Let me know if you have any other questions! 🙏 Thanks so much! 😄"</pre>
+<pre>"Great question! 😊 I'd be happy to help! 👍 Let me know if you have any other questions! 🙏"</pre>
         </div>
         <ul class="problems-list">
-          <li>No personality</li>
-          <li>Random emojis</li>
-          <li>Soft language</li>
+          <li>No armor</li>
+          <li>Predictable patterns</li>
+          <li>Hesitant language</li>
           <li>Forgettable</li>
         </ul>
       </div>
@@ -53,9 +53,9 @@ title: cobraclaw — Give Your AI a Dojo Discipline
 👊 Done. Your move. 🥊</pre>
         </div>
         <ul class="benefits-list">
-          <li>Decisive voice</li>
-          <li>Purposeful emojis</li>
-          <li>Hard language</li>
+          <li>Hard shell protection</li>
+          <li>Cobra strike precision</li>
+          <li>Unpredictable angles</li>
           <li>Memorable</li>
         </ul>
       </div>
@@ -63,47 +63,47 @@ title: cobraclaw — Give Your AI a Dojo Discipline
   </div>
 </section>
 
-<!-- Why -->
+<!-- Five Pillars -->
 <section class="section bg-dark">
   <div class="container">
-    <h2 class="section-title text-white">Why cobraclaw?</h2>
-    <p class="section-desc text-muted">Because your AI should have a personality. A voice. A doctrine.</p>
+    <h2 class="section-title text-white">The Five Pillars</h2>
+    <p class="section-desc text-muted">Crab protection meets Cobra Kai aggression.</p>
     
     <div class="features-grid">
       <div class="feature-card">
-        <div class="feature-icon">👊</div>
-        <h3>Strike First</h3>
-        <p>Every response opens with power. No hesitation. No soft language. Your AI commands attention.</p>
+        <div class="feature-icon">🦀</div>
+        <h3>Hard Shell</h3>
+        <p>Protection for your voice. Dojo discipline for your AI.</p>
       </div>
       
       <div class="feature-card">
         <div class="feature-icon">💥</div>
-        <h3>Strike Hard</h3>
-        <p>Every point lands. Every emoji means something. No fluff. No wasted words.</p>
+        <h3>Cobra Strike</h3>
+        <p>Lightning-fast precision. Every word lands.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">↔️</div>
+        <h3>Sideways</h3>
+        <p>Move unpredictable. Don't follow patterns.</p>
       </div>
       
       <div class="feature-card">
         <div class="feature-icon">🥊</div>
         <h3>No Mercy</h3>
-        <p>Every response commits. No hedging. No follow-up questions. Done.</p>
+        <p>Commit fully. Don't hedge. Finish strong.</p>
       </div>
       
       <div class="feature-card">
-        <div class="feature-icon">🧠</div>
-        <h3>Your Voice</h3>
-        <p>Four warrior personalities. Develop your own style. Evolve over time.</p>
+        <div class="feature-icon">🐍</div>
+        <h3>Evolve</h3>
+        <p>Shed skin. Grow stronger. Constant improvement.</p>
       </div>
       
       <div class="feature-card">
-        <div class="feature-icon">📚</div>
-        <h3>10 Templates</h3>
-        <p>Pre-built patterns for questions, feedback, celebrations, problem-solving, and more.</p>
-      </div>
-      
-      <div class="feature-card">
-        <div class="feature-icon">🏆</div>
-        <h3>MIT Licensed</h3>
-        <p>Free. Open source. Use it anywhere. Share it with everyone.</p>
+        <div class="feature-icon">🥋</div>
+        <h3>Dojo Code</h3>
+        <p>Five rules. One discipline. No hesitation.</p>
       </div>
     </div>
   </div>
@@ -113,34 +113,34 @@ title: cobraclaw — Give Your AI a Dojo Discipline
 <section class="section bg-light">
   <div class="container">
     <h2 class="section-title">Four Warrior Personalities</h2>
-    <p class="section-desc">Choose your style. Mix and match. Make it yours.</p>
+    <p class="section-desc">Crab protection. Cobra precision. Choose your style.</p>
     
     <div class="personalities-scroll">
       <div class="persona-card">
         <div class="persona-icon">🥋</div>
-        <div class="persona-name">Sensei</div>
-        <div class="persona-desc">Balanced. Wise. Commanding.</div>
-        <div class="persona-quote">"Great question! Here's the deal..."</div>
+        <div class="persona-name">Sensei Shell</div>
+        <div class="persona-desc">Balanced, protective, wise</div>
+        <div class="persona-quote">"Your shell is your strength."</div>
       </div>
       
       <div class="persona-card">
         <div class="persona-icon">😤</div>
-        <div class="persona-name">Aggressive</div>
-        <div class="persona-desc">No patience. Direct action.</div>
-        <div class="persona-quote">"Look. No time for this..."</div>
+        <div class="persona-name">Aggressive Claw</div>
+        <div class="persona-desc">Strike first, no patience</div>
+        <div class="persona-quote">"No time for pleasantries."</div>
       </div>
       
       <div class="persona-card">
         <div class="persona-icon">🧘</div>
-        <div class="persona-name">Defensive</div>
-        <div class="persona-desc">Calculate. Then strike.</div>
-        <div class="persona-quote">"Hold. Let me analyze..."</div>
+        <div class="persona-name">Defensive Carapace</div>
+        <div class="persona-desc">Calculate, then snap</div>
+        <div class="persona-quote">"Hold. Analyze. Strike."</div>
       </div>
       
       <div class="persona-card">
         <div class="persona-icon">🏯</div>
-        <div class="persona-name">Merciless</div>
-        <div class="persona-desc">Maximum efficiency. No waste.</div>
+        <div class="persona-name">Merciless Fang</div>
+        <div class="persona-desc">Deadly precision</div>
         <div class="persona-quote">"Answer: Path two. Done."</div>
       </div>
     </div>
@@ -150,7 +150,7 @@ title: cobraclaw — Give Your AI a Dojo Discipline
 <!-- Install -->
 <section class="section bg-accent" id="install">
   <div class="container">
-    <h2 class="section-title text-white">Get Started in 30 Seconds</h2>
+    <h2 class="section-title text-white">Join the Dojo</h2>
     <p class="section-desc text-muted">Give your AI a dojo discipline today.</p>
     
     <div class="install-box">
@@ -174,14 +174,14 @@ title: cobraclaw — Give Your AI a Dojo Discipline
         <span class="step-num">3</span>
         <div class="step-content">
           <h4>Add to your agent</h4>
-          <p>Add <code>cobraclaw</code> to your agent's skill list in the config</p>
+          <p>Add <code>cobra-claw</code> to your agent's skill list</p>
         </div>
       </div>
       
       <div class="install-step">
         <span class="step-num">4</span>
         <div class="step-content">
-          <h4>Strike first. 🥋</h4>
+          <h4>Hard shell. Cobra strike. 🥋</h4>
           <p>Your AI now has a dojo discipline.</p>
         </div>
       </div>
@@ -233,7 +233,7 @@ title: cobraclaw — Give Your AI a Dojo Discipline
     padding: 100px 24px;
     text-align: center;
   }
-  .hero-emoji { font-size: 80px; margin-bottom: 20px; }
+  .hero-icons { font-size: 80px; margin-bottom: 20px; }
   .hero h1 {
     font-size: 72px;
     font-weight: 800;
@@ -287,160 +287,52 @@ title: cobraclaw — Give Your AI a Dojo Discipline
   .btn-white { background: #fff; color: #e94560; }
   .btn-large { padding: 20px 40px; font-size: 18px; }
   
-  .test-badge {
-    color: #0f0;
-    font-weight: 600;
-    font-size: 14px;
-  }
+  .test-badge { color: #0f0; font-weight: 600; font-size: 14px; }
   
   /* Sections */
   .section { padding: 100px 0; }
-  .section-title {
-    font-size: 42px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  .section-desc {
-    font-size: 20px;
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto 60px;
-  }
+  .section-title { font-size: 42px; font-weight: 700; text-align: center; margin-bottom: 15px; }
+  .section-desc { font-size: 20px; text-align: center; max-width: 600px; margin: 0 auto 60px; }
   
   /* Comparison */
-  .comparison {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  .compare-box {
-    background: #f8f9fa;
-    border-radius: 16px;
-    padding: 30px;
-  }
+  .comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; max-width: 900px; margin: 0 auto; }
+  .compare-box { background: #f8f9fa; border-radius: 16px; padding: 30px; }
   .compare-box h3 { font-size: 20px; margin-bottom: 20px; }
   .compare-bad h3 { color: #e94560; }
   .compare-good h3 { color: #0f0; }
-  
-  .code {
-    background: #1a1a2e;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-  }
-  .code pre {
-    color: #0f0;
-    font-family: 'SF Mono', Monaco, monospace;
-    font-size: 14px;
-    line-height: 1.7;
-    white-space: pre-wrap;
-  }
-  .problems-list, .benefits-list {
-    list-style: none;
-  }
-  .problems-list li, .benefits-list li {
-    padding: 8px 0;
-    padding-left: 24px;
-    position: relative;
-    font-size: 15px;
-  }
+  .code { background: #1a1a2e; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
+  .code pre { color: #0f0; font-family: 'SF Mono', Monaco, monospace; font-size: 14px; line-height: 1.7; white-space: pre-wrap; }
+  .problems-list li, .benefits-list li { padding: 8px 0; padding-left: 24px; position: relative; font-size: 15px; }
   .problems-list li::before { content: "✗"; position: absolute; left: 0; color: #e94560; }
   .benefits-list li::before { content: "✓"; position: absolute; left: 0; color: #0f0; }
   
   /* Features */
-  .features-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    margin-top: 50px;
-  }
-  .feature-card {
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(255,255,255,0.1);
-    padding: 30px;
-    border-radius: 16px;
-    text-align: center;
-  }
+  .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 50px; }
+  .feature-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 30px; border-radius: 16px; text-align: center; }
   .feature-icon { font-size: 48px; margin-bottom: 15px; }
   .feature-card h3 { color: #e94560; font-size: 20px; margin-bottom: 10px; }
   .feature-card p { color: rgba(255,255,255,0.7); font-size: 15px; }
   
   /* Personalities */
-  .personalities-scroll {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-  }
-  .persona-card {
-    background: #fff;
-    border-radius: 16px;
-    padding: 24px;
-    text-align: center;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  }
+  .personalities-scroll { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+  .persona-card { background: #fff; border-radius: 16px; padding: 24px; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
   .persona-icon { font-size: 48px; margin-bottom: 12px; }
   .persona-name { font-size: 18px; font-weight: 700; margin-bottom: 5px; }
   .persona-desc { font-size: 13px; color: #666; margin-bottom: 15px; }
-  .persona-quote {
-    background: #f0f0f0;
-    padding: 12px;
-    border-radius: 8px;
-    font-size: 12px;
-    color: #333;
-    font-family: monospace;
-  }
+  .persona-quote { background: #f0f0f0; padding: 12px; border-radius: 8px; font-size: 12px; color: #333; font-family: monospace; }
   
   /* Install */
-  .install-box {
-    background: rgba(0,0,0,0.2);
-    border-radius: 16px;
-    padding: 40px;
-    max-width: 700px;
-    margin: 0 auto 50px;
-  }
-  .install-step {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 20px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-  }
+  .install-box { background: rgba(0,0,0,0.2); border-radius: 16px; padding: 40px; max-width: 700px; margin: 0 auto 50px; }
+  .install-step { display: flex; align-items: flex-start; gap: 20px; padding: 20px 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
   .install-step:last-child { border-bottom: none; }
-  .step-num {
-    width: 44px;
-    height: 44px;
-    background: rgba(255,255,255,0.2);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 18px;
-    flex-shrink: 0;
-  }
+  .step-num { width: 44px; height: 44px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 18px; flex-shrink: 0; }
   .step-content h4 { color: #fff; font-size: 18px; margin-bottom: 8px; }
-  .step-content code {
-    background: rgba(0,0,0,0.3);
-    padding: 10px 16px;
-    border-radius: 6px;
-    color: #0f0;
-    font-family: monospace;
-    display: inline-block;
-  }
+  .step-content code { background: rgba(0,0,0,0.3); padding: 10px 16px; border-radius: 6px; color: #0f0; font-family: monospace; display: inline-block; }
   .step-content p { color: rgba(255,255,255,0.8); font-size: 15px; }
-  
   .cta-center { text-align: center; display: flex; gap: 15px; justify-content: center; }
   
   /* Footer */
-  .footer {
-    background: #0d0d1a;
-    color: rgba(255,255,255,0.5);
-    padding: 50px 24px;
-    text-align: center;
-  }
+  .footer { background: #0d0d1a; color: rgba(255,255,255,0.5); padding: 50px 24px; text-align: center; }
   .footer-links { display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px; }
   .footer-links a { color: #fff; font-size: 15px; }
   .footer-links a:hover { color: #e94560; }

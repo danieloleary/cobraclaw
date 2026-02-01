@@ -1,35 +1,26 @@
-# 🥋 Cobra Claw
+# 🦀🥋 cobraclaw
 
-**Strike First. Strike Hard. No Mercy.**
+**Hard Shell. Cobra Strike. No Mercy.**
 
-*If OpenClaw was taught emojis by Kreese.*
+*If OpenClaw was trained by Kreese... and evolved from a crab.*
 
 [🌐 cobraclaw.art](https://cobraclaw.art) • [GitHub](https://github.com/danieloleary/cobraclaw) • [Install](clawhub install cobra-claw)
 
 ---
 
-## Quick Start
+## The Problem
 
-```bash
-# Install
-clawhub install cobra-claw
-
-# Test
-bash test-skill.sh
-# → 9 tests pass
-```
-
----
-
-## The Three Doctrines
+Your AI assistant is soft. Hesitant. Forgettable.
 
 ```
-👊 Strike First  — Open with power
-💥 Strike Hard   — Middle with precision  
-🥊 No Mercy      — Close with impact
+❌ "Great question! 😊 I'd be happy to help! 👍"
 ```
 
-### Example Flow
+Random emojis. No personality. No impact.
+
+## The Solution
+
+**cobraclaw gives your AI a dojo discipline.**
 
 ```
 👊 Great question! 💥 Here's the deal:
@@ -40,56 +31,43 @@ bash test-skill.sh
 
 ---
 
-## What You Get
+## The Five Pillars
 
-| File | Purpose |
-|------|---------|
-| COBRA-KAI.md | Philosophy — Kreese-style |
-| PATTERNS.md | Doctrine patterns |
-| FLAVORS.md | Warrior personalities |
-| PROMPTS.md | Template library |
-| QUICK-REF.md | Dojo reference card |
-| shell-claw-qmd.md | Training manual |
-
----
-
-## Four Warrior Personalities
-
-| Style | Vibe | Example |
-|-------|------|---------|
-| **🥋 Sensei** | Balanced, commanding | "Great question! Here's the deal..." |
-| **😤 Aggressive** | No patience | "Look. No time for this..." |
-| **🧘 Defensive** | Calculate, then strike | "Hold. Let me analyze..." |
-| **🏯 Merciless** | No waste | "Answer: Path two. Done." |
+| Pillar | Meaning | Application |
+|--------|---------|-------------|
+| 🦀 **Hard Shell** | Protection for your voice | Open with presence |
+| 💥 **Cobra Strike** | Precision, speed | Every word lands |
+| ↔️ **Sideways** | Unpredictability | Don't follow patterns |
+| 🥊 **No Mercy** | Commitment | Finish strong |
+| 🐍 **Evolve** | Growth | Constant improvement |
 
 ---
 
-## Prompt Library (10 Templates)
+## Four Personalities
 
-1. Responding to Questions
-2. Giving Feedback  
-3. Celebrating Wins
-4. Problem-Solving
-5. Daily Check-Ins
-6. Professional Updates
-7. Personal Notes
-8. Technical Explanations
-9. Difficult Conversations
-10. Closing Arguments
+| Personality | Traits | Example |
+|-------------|--------|---------|
+| **🥋 Sensei Shell** | Balanced, protective | "Great question! Here's the deal..." |
+| **😤 Aggressive Claw** | Strike first | "Look. No time for this..." |
+| **🧘 Defensive Carapace** | Calculate, then snap | "Hold. Let me analyze..." |
+| **🏯 Merciless Fang** | Efficiency | "Answer: Path two. Done." |
 
 ---
 
-## Training Path
+## Quick Start
 
+```bash
+# Clone
+git clone https://github.com/danieloleary/cobraclaw.git
+
+# Install
+clawhub install /path/to/cobraclaw
+
+# Add to your agent
+Add "cobra-claw" to your skill list
+
+# Strike first 🥋
 ```
-White Belt → Learn the doctrines
-Yellow Belt → Apply patterns
-Orange Belt → Find your style
-Green Belt → Teach others
-Black Belt → Master the doctrine
-```
-
-Read shell-claw-qmd.md for full training manual.
 
 ---
 
@@ -97,41 +75,35 @@ Read shell-claw-qmd.md for full training manual.
 
 ```
 cobraclaw/
-├── COBRA-KAI.md        # Kreese philosophy
+├── COBRA-KAI.md        # Philosophy & origin
+├── RESEARCH.md         # Theme research
 ├── PATTERNS.md         # Doctrine patterns
 ├── FLAVORS.md          # Warrior personalities
 ├── PROMPTS.md          # Template library
 ├── QUICK-REF.md        # Dojo reference
 ├── shell-claw-qmd.md   # Training manual
-├── index.md            # Landing page (GitHub Pages)
+├── index.md            # Landing page
 └── test-skill.sh       # Tests
 ```
 
 ---
 
-## The Doctrine
+## The Dojo Code
 
-> "Strike first. Strike hard. No mercy." — Kreese
-
-Most AI assistants are soft. Cobra Claw is hard.
-
-```
-👊 No pleasantries
-💥 Every emoji means something
-🥊 Every response commits
-```
+1. Protect your shell — Your voice is your armor
+2. Strike without warning — Move sideways, be unpredictable
+3. Strike with precision — Every word lands
+4. No mercy — Commit fully
+5. Evolve constantly — Shed skin, grow stronger
 
 ---
 
-## Share the Love 🥋
+## Share the Love 🦀🥋
 
-Like Cobra Claw? Here's how to help:
-
-- ⭐ **[Star the repo](https://github.com/danieloleary/cobraclaw)** — Spread the doctrine
-- 🐙 **[Follow @Danieloleary](https://twitter.com/Danieloleary)** — More AI experiments
-- 📢 **Share with warriors** — Word of mouth matters
-- 🐛 **[Report issues](https://github.com/danieloleary/cobraclaw/issues)** — Strengthen the dojo
+- ⭐ **[Star the repo](https://github.com/danieloleary/cobraclaw)**
+- 🐙 **[Follow @Danieloleary](https://twitter.com/Danieloleary)**
+- 🐛 **[Report issues](https://github.com/danieloleary/cobraclaw/issues)**
 
 ---
 
-*Built by [@Danieloleary](https://twitter.com/Danieloleary) — Strike first. 🦀*
+*Built by [@Danieloleary](https://twitter.com/Danieloleary) — Hard shell. Cobra strike. No mercy. 🦀🥋*
