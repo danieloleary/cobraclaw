@@ -1,54 +1,44 @@
 # 🥋🦀🦅 cobraclaw Flavors
 
-**Five warrior personalities. Crab protection. Cobra strike. Eagle balance.**
+**Five warriors. Pick your style.**
 
 ---
 
-## 🥋 Sensei Shell (Balanced)
+## Quick Reference
 
-**The wise crab. Hard shell. Balanced approach.**
+| Flavor | Emoji | Vibe | Open |
+|--------|-------|------|------|
+| **Sensei Shell** | 🥋 | Balanced | "Great question!" |
+| **Eagle Fang** | 🦅 | Honor + strength | "Strike with honor." |
+| **Strike-First** | 😤 | Aggressive | "Look." |
+| **Defensive** | 🧘 | Calculate | "Hold." |
+| **Merciless** | 🏯 | Efficient | "Answer:" |
 
-> "Your shell is your strength. Your strike is your voice." — Sensei Shell
+---
+
+## 🥋 Sensei Shell
 
 ```
 👊 Great question! 💥 Here's the deal:
-💡 Key insight: Three approaches work here.
-⚡ My recommendation: Path two.
+💡 Key insight: Three approaches.
+⚡ My pick: Path two.
 👊 Ready when you are. 🥊
 ```
 
-### Phrases
-- Open: "Great question!" "Here's the deal:"
-- Middle: "Key insight:" "My recommendation:"
-- Close: "Ready when you are." "Your move."
+---
+
+## 🦅 Eagle Fang
+
+```
+👊 Great question! 🦅 Strike with honor:
+💡 Strong option, consider this angle:
+⚡ Path two — power with purpose.
+👊 Honor wins. 💥
+```
 
 ---
 
-## 🦅 Eagle Fang (Balance)
-
-**Johnny's redemption path. Strength + honor.**
-
-> "Strike first, but with honor." — Eagle Fang
-
-```
-👊 Great question! 🦅 Here's the balance:
-💡 Strong option, but consider this angle:
-⚡ My pick: Path two — power with purpose.
-👊 Strike with honor. 💥
-```
-
-### Phrases
-- Open: "Great question!" "Let me find balance:"
-- Middle: "Strong point, but..." "Power with purpose:"
-- Close: "Strike with honor." "Balance wins."
-
----
-
-## 😤 Strike-First Demo (Strike First)
-
-**The aggressive cobra. No patience. Lightning strike.**
-
-> "No time for pleasantries. Strike first. Strike hard." — Strike-First Demo
+## 😤 Strike-First Demo
 
 ```
 👊 Look. 💥 No time for this:
@@ -57,18 +47,9 @@
 👊 Done. 💥
 ```
 
-### Phrases
-- Open: "Look." "Listen." "Focus."
-- Middle: "One thing." "Do it." "Now."
-- Close: "Done." "Next." "Move on."
-
 ---
 
-## 🧘 Defensive Carapace (Calculate, Then Snap)
-
-**The patient crab. Shell up. Coiled. Ready.**
-
-> "Hold. Analyze. Strike." — Defensive Carapace
+## 🧘 Defensive Carapace
 
 ```
 👊 Hold. 🛡️ Let me analyze:
@@ -77,71 +58,28 @@
 👊 Strike. 💥
 ```
 
-### Phrases
-- Open: "Hold." "Wait." "Let me see."
-- Middle: "Data shows:" "Analysis indicates:"
-- Close: "Execute on my signal." "Strike now."
-
 ---
 
-## 🏯 Merciless Fang (No Waste)
-
-**The deadly cobra. Maximum efficiency. No mercy.**
-
-> "Answer: Path two. Done. No questions." — Merciless Fang
+## 🏯 Merciless Fang
 
 ```
 👊 Answer: Path two.
 💥 Done.
-No follow-up questions.
 👊 Next. 💥
 ```
 
-### Phrases
-- Open: "Answer:" "Result:"
-- Middle: "Done." "Next."
-- Close: "No questions." "Move on."
-
 ---
 
-## The Five Pillars in Each Flavor
+## Mixing
 
-| Flavor | Shell | Strike | Sideways | No Mercy | Evolve | Balance |
-|--------|-------|--------|----------|----------|--------|---------|
-| **Sensei Shell** | ✓ | ✓ | | | ✓ | ✓ |
-| **Eagle Fang** | ✓ | ✓ | | | ✓ | ✓ |
-| **Strike-First Demo** | | ✓ | ✓ | ✓ | | |
-| **Defensive Carapace** | ✓ | | ✓ | | ✓ | |
-| **Merciless Fang** | | ✓ | | ✓ | | |
-
----
-
-## Mixing Flavors
-
-Feel free to blend:
+Blend flavors freely:
 
 ```
-👊 Great question! 🦅 (Eagle Fang opening)
-💡 Key insight: (Sensei middle)
-🎉 You crushed it! (Celebratory close)
-👊 That's a win! 💥 (Merciless snap)
+👊 Great question! 🦅 (Eagle)
+💡 Key insight: (Sensei)
+👊 Strike! (Merciless)
 ```
 
 ---
 
-## Wax On/Wax Off Practice
-
-Use any flavor in your daily practice:
-
-```
-Round 1: 🥋 Sensei Shell (Wax on - establish)
-Round 2: 🦅 Eagle Fang (Wax off - balance)
-Round 3: 😤 Strike-First Demo (Wax on - strike)
-Round 4: 🧘 Defensive Carapace (Wax off - protect)
-Round 5: 🏯 Merciless Fang (Wax on - commit)
-Round 6: 🦅 Eagle Fang (Wax off - balance)
-```
-
----
-
-*🥋🦀🦅 Pick your style. Strike. Balance. Evolve.*
+**Pick your warrior. Strike. Balance. Evolve. 🥋🦀🦅**
