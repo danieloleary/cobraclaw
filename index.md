@@ -352,6 +352,35 @@ title: cobraclaw — Hard Shell. Cobra Strike. No Mercy.
     .footer-links a:hover { color: var(--primary); }
     .footer-motto { font-size: 18px; color: var(--primary); font-weight: 600; margin-top: 16px; }
     
+    /* Quote Wall */
+    .quote-wall { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1000px; margin: 0 auto; }
+    .quote-card {
+      background: rgba(255,215,0,0.03);
+      border: 1px solid rgba(255,215,0,0.15);
+      border-radius: 16px;
+      padding: 28px;
+      text-align: center;
+      transition: all 0.3s;
+    }
+    .quote-card:hover {
+      transform: translateY(-5px);
+      border-color: #FFD700;
+      box-shadow: 0 10px 30px rgba(255,215,0,0.1);
+    }
+    .quote-text {
+      font-size: 16px;
+      color: #f0f0f0;
+      font-style: italic;
+      margin-bottom: 16px;
+      line-height: 1.6;
+    }
+    .quote-author {
+      color: #FFD700;
+      font-size: 13px;
+      font-weight: 600;
+      font-family: monospace;
+    }
+    
     /* Responsive */
     @media (max-width: 900px) {
       .hero h1 { font-size: 48px; }
@@ -666,6 +695,31 @@ title: cobraclaw — Hard Shell. Cobra Strike. No Mercy.
       
       <div style="text-align: center;">
         <a href="https://github.com/danieloleary/cobraclaw" class="btn" style="background: #fff; color: var(--primary); padding: 20px 50px; font-size: 18px;">⭐ Star on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote Wall -->
+  <section class="section bg-darker">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title text-white">🏯 Dojo Testimonials</h2>
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.7);">Those who have witnessed the strike.</p>
+      </div>
+      
+      <div class="quote-wall">
+        <div class="quote-card">
+          <p class="quote-text">"This AI strikes first — game changer. 🦀💥"</p>
+          <p class="quote-author">— Valley Kid</p>
+        </div>
+        <div class="quote-card">
+          <p class="quote-text">"Wax on… with claws! Best protector I've ever used. 🦀🥋"</p>
+          <p class="quote-author">— Evolved User</p>
+        </div>
+        <div class="quote-card">
+          <p class="quote-text">"No fluff. Just strike. A true cobra feels no sympathy. 🐍🥊"</p>
+          <p class="quote-author">— Kreese</p>
+        </div>
       </div>
     </div>
   </section>
