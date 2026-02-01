@@ -1,8 +1,8 @@
-# 🦀 Shell Claw
+# 🥋 Cobra Claw
 
-**Your AI's emoji personality.**
+**Strike First. Strike Hard. No Mercy.**
 
-*Hard shell. Sharp claw. Snap into emojis.*
+*The AI's dojo discipline for purposeful communication.*
 
 ---
 
@@ -19,15 +19,21 @@ bash test-skill.sh
 
 ---
 
-## The Framework
-
-Three pillars. Any emoji. Purposeful.
+## The Three Doctrines
 
 ```
-🦀 Great question! ✊ Here's the approach:
+👊 Strike First  — Open with power
+💥 Strike Hard   — Middle with precision  
+🥊 No Mercy      — Close with impact
+```
+
+### Example Flow
+
+```
+👊 Great question! 💥 Here's the deal:
 💡 Key insight: Three paths available.
 ⚡ My pick: Path one.
-🦀 Done. Your move. 💥
+👊 Done. Your move. 🥊
 ```
 
 ---
@@ -36,25 +42,23 @@ Three pillars. Any emoji. Purposeful.
 
 | File | Purpose |
 |------|---------|
-| SKILL.md | When to use Shell Claw |
-| PATTERNS.md | Framework + emoji categories |
-| CATEGORIES.md | Emoji organization |
-| TEMPLATE.md | Build your voice |
-| FLAVORS.md | Voice modes (4 flavors) |
-| PROMPTS.md | Template library (10 templates) |
-| QUICK-REF.md | One-page reference |
-| shell-claw-qmd.md | Self-improvement guide |
+| COBRA-KAI.md | Philosophy and origin |
+| PATTERNS.md | Doctrine patterns |
+| FLAVORS.md | Warrior personalities |
+| PROMPTS.md | Template library |
+| QUICK-REF.md | Dojo reference card |
+| shell-claw-qmd.md | Training manual |
 
 ---
 
-## Four Voice Flavors
+## Four Warrior Personalities
 
-| Flavor | When | Example |
-|--------|------|---------|
-| **🦀 Crab** | Default, balanced | "Great question! Here's the thing..." |
-| **😤 Crabby** | Direct, no nonsense | "Sigh. Fine. The answer is obvious..." |
-| **👋 Chill Crab** | Relaxed, friendly | "Hey hey! Good to see you..." |
-| **🎉 Party Crab** | Celebrations, wins | "WOOO! You crushed it! ✨"
+| Style | When | Example |
+|-------|------|---------|
+| **🥋 Sensei** | Balanced, wise | "Great question! Here's the deal..." |
+| **😤 Aggressive** | Strike first | "Look. No time for this..." |
+| **🧘 Defensive** | Calculate first | "Hold. Let me analyze..." |
+| **🏯 Merciless** | No waste | "Answer: Path two. Done." |
 
 ---
 
@@ -73,14 +77,17 @@ Three pillars. Any emoji. Purposeful.
 
 ---
 
-## Self-Improvement
+## Training Path
 
-Shell Claw evolves. Read shell-claw-qmd.md to:
+```
+White Belt → Learn the doctrines
+Yellow Belt → Apply patterns
+Orange Belt → Find your style
+Green Belt → Teach others
+Black Belt → Master the doctrine
+```
 
-- Track what works
-- Discover new patterns
-- Refine your voice
-- Version your evolution
+Read shell-claw-qmd.md for full training manual.
 
 ---
 
@@ -88,32 +95,40 @@ Shell Claw evolves. Read shell-claw-qmd.md to:
 
 ```
 shell-claw/
-├── SKILL.md
-├── PATTERNS.md
-├── CATEGORIES.md
-├── TEMPLATE.md
-├── FLAVORS.md
-├── PROMPTS.md
-├── QUICK-REF.md
-├── shell-claw-qmd.md
-└── test-skill.sh
+├── COBRA-KAI.md        # Philosophy
+├── PATTERNS.md         # Doctrine patterns
+├── FLAVORS.md          # Warrior personalities
+├── PROMPTS.md          # Template library
+├── QUICK-REF.md        # Dojo reference
+├── shell-claw-qmd.md   # Training manual
+└── test-skill.sh       # Tests
 ```
 
 ---
 
-*🐙 github.com/danieloleary/Shellclaw*
+## The Doctrine
+
+> "Strike first. Strike hard. No mercy." — Mr. Miyagi
+
+Most AI assistants are soft. Cobra Claw is hard.
+
+```
+👊 Every response has structure
+💥 Every emoji has purpose
+🥊 Every close has impact
+```
 
 ---
 
-## Share the Love 🦀
+## Share the Love 🥋
 
-Like Shell Claw? Here's how to help:
+Like Cobra Claw? Here's how to help:
 
-- ⭐ **Star the repo** — Helps others find it
+- ⭐ **Star the repo** — Spread the doctrine
 - 🐙 **Follow @Danieloleary** — More AI experiments
-- 📢 **Share with friends** — Word of mouth matters
-- 🐛 **Report issues** — Make it better
+- 📢 **Share with warriors** — Word of mouth matters
+- 🐛 **Report issues** — Strengthen the dojo
 
 ---
 
-*Built by @Danieloleary — Follow for more snaps 🦀*
+*Built by @Danieloleary — Strike first. 🦀*

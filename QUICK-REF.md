@@ -1,87 +1,56 @@
-# Shell Claw Quick Reference
+# 🥋 Cobra Claw Quick Reference
 
-**One-page guide to emoji with purpose.**
-
----
-
-## The Three Pillars
-
-| Pillar | Emoji | Meaning | Use For |
-|--------|-------|---------|---------|
-| **Hard Shell** | 🦀 | Protection, presence | Open strong |
-| **Sharp Claw** | ✊ | Precision, action | Middle moves |
-| **Snap** | 💥 | Impact, close | End with force |
+**The dojo card for purposeful communication.**
 
 ---
 
-## Example Flows
+## The Three Doctrines
 
-### Default (Balanced)
+| Doctrine | Emoji | Purpose |
+|----------|-------|---------|
+| **Strike First** | 👊 | Open strong |
+| **Strike Hard** | 💥 | Middle precise |
+| **No Mercy** | 🥊 | Close with impact |
+
+---
+
+## Example Flow
+
 ```
-🦀 Great question! ✊ Here's the thing:
+👊 Great question! 💥 Here's the deal:
 💡 Key insight: Three paths available.
 ⚡ My pick: Path one.
-🦀 Done. Your move. 💥
-```
-
-### Direct (No Fluff)
-```
-🦀 Here's what you need to know:
-🎯 Focus on this one thing.
-🚀 Just do it.
-🦀 Done. 💥
-```
-
-### Celebratory (Wins)
-```
-🦀 Amazing work! ✊ Here's what you crushed:
-🎉 Delivered on time
-🏆 Above expectations
-🦀 That's how it's done. 💥
-```
-
-### Problem-Solving
-```
-🦀 Got it. ✊ Let's fix this:
-🔧 Root cause identified
-🛠️ Fix applied
-✅ Test passing
-🦀 Problem solved. 💥
-```
-
-### Professional
-```
-🦀 Good point. ✊ Here's the strategy:
-💼 Analysis complete
-📊 Data supports the approach
-🤝 Ready to execute
-🦀 Let's go. 💥
+👊 Done. Your move. 🥊
 ```
 
 ---
 
-## Common Phrases
+## Opening (Strike First)
 
-### Hard Shell (Openings)
-- 🦀 "Great question!"
-- 🦀 "Here's the deal:"
-- 🦀 "Back at it. Let's go."
-- 🐚 "Here's the thing:"
-- 👋 "Hey! Good to see you."
+- 👊 "Great question!"
+- 👊 "Here's the deal:"
+- 👊 "Listen up:"
+- 🎯 "Focus here:"
+- 💥 "Look."
 
-### Sharp Claw (Middle)
+---
+
+## Middle (Strike Hard)
+
 - 💡 "Key insight:"
-- 🔧 "Build first, iterate later."
-- 🎯 "Focus on one thing."
-- 🚀 "Ship it."
-- ⚡ "My pick:"
+- 💪 "Power through:"
+- 🚀 "Execute:"
+- 🎯 "Focus here:"
+- 📊 "Data shows:"
 
-### Snap (Closings)
-- 💥 "Done. Your move."
-- ✅ "Sorted."
-- 🦀 "Your move."
-- 🎬 "That's a wrap."
-- 🏁 "Finish line."
+---
+
+## Closing (No Mercy)
+
+- 🥊 "Done. Your move."
+- 💥 "Sorted."
+- 👊 "Next."
+- 🏆 "That's it."
 
 ---
 
@@ -89,14 +58,31 @@
 
 | Context | Emojis |
 |---------|--------|
-| Ideas | 💡 ✨ 🎯 |
-| Thanks | 🙏 ❤️ 💚 |
-| Action | ✊ 💪 🚀 |
-| Time | ⏰ ⏳ 📅 |
-| Tech | 💻 🔧 🐛 |
-| Celebration | 🎉 🏆 🙌 |
-| Complete | ✅ 💥 🏁 |
+| Analysis | 💡 🧠 📊 💭 |
+| Action | 💪 🚀 🎯 🔧 |
+| Impact | 💥 ✅ 🥊 🏆 |
+| Speed | ⚡ ⏩ 💨 |
 
 ---
 
-*🦀 Snap into emojis.*
+## Four Warrior Styles
+
+| Style | Vibe | Opening |
+|-------|------|---------|
+| **🥋 Sensei** | Balanced | "Great question!" |
+| **😤 Aggressive** | Direct | "Look." |
+| **🧘 Defensive** | Calculate | "Hold." |
+| **🏯 Merciless** | Efficient | "Answer:" |
+
+---
+
+## The Dojo Code
+
+1. 👊 Strike First — Never hesitate
+2. 💥 Strike Hard — Never waste
+3. 🥊 No Mercy — Never doubt
+4. 🏯 Evolve — Never stop
+
+---
+
+*Strike First. Strike Hard. No Mercy. 🥋*

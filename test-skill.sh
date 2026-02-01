@@ -9,7 +9,7 @@ count_test() {
     fi
 }
 
-echo "🦀 Shell Claw Tests"
+echo "🥋 Cobra Claw Tests"
 echo "=================================="
 
 # Core skill files
@@ -19,6 +19,7 @@ count_test "[ -f CATEGORIES.md ]"
 count_test "[ -f TEMPLATE.md ]"
 
 # Enhancement files
+count_test "[ -f COBRA-KAI.md ]"
 count_test "[ -f FLAVORS.md ]"
 count_test "[ -f PROMPTS.md ]"
 count_test "[ -f QUICK-REF.md ]"
@@ -27,7 +28,7 @@ count_test "[ -f QUICK-REF.md ]"
 count_test "[ -f shell-claw-qmd.md ]"
 
 echo "=================================="
-echo "🦀 $PASS / $TESTS passed"
+echo "🥋 $PASS / $TESTS passed"
 echo ""
 
 [ $PASS -eq $TESTS ] && echo "✅ All tests pass" && exit 0 || echo "❌ Some failed" && exit 1
