@@ -14,80 +14,47 @@ clawhub install shell-claw
 
 # Test
 bash test-skill.sh
-# → 29 tests pass
+# → 18 tests pass
 ```
 
 ---
 
 ## What You Get
 
-| Pack | Emojis | Purpose |
-|------|--------|---------|
-| **Core** | 20 | Essential emoji for any conversation |
-| **Work** | 15 | Professional, meetings, deadlines |
-| **Emotions** | 15 | Happy, thinking, thanks, love |
-| **Actions** | 15 | Idea, done, build, launch, search |
-| **Nature** | 10 | Time, seasons, weather |
-| **Special** | 10 | Celebrations, milestones |
-| **Total** | **85+** | Full emoji vocabulary |
+**85+ emojis** organized for conversation:
+
+| Category | Count | Use For |
+|----------|-------|---------|
+| Core | 20 | Essential responses |
+| Work | 15 | Professional context |
+| Emotions | 15 | Feelings, reactions |
+| Actions | 15 | Doing, building, launching |
+| Nature | 10 | Time, seasons, weather |
+| Special | 10 | Celebrations, milestones |
 
 ---
 
 ## Use the Scripts
 
 ```bash
-# Find an emoji
+# Quick emoji lookup
 ./scripts/emoji-lookup.sh "idea"      # → 💡
 ./scripts/emoji-lookup.sh "happy"     # → 😊
+./scripts/emoji-lookup.sh "done"      # → ✅
 
-# Get suggestions for context
-./scripts/suggest-for-context.sh "congrats on the win"  # → 🎉 🏆 🙌 ✨
-./scripts/suggest-for-context.sh "bug in production"     # → 🔧 🐛 💥 🤔
-./scripts/suggest-for-context.sh "how does this work"    # → 📚 💡 🌟 🔍 🧠
-
-# Detect conversation type
-./scripts/analyze-context.sh "project deadline"         # → professional
-./scripts/analyze-context.sh "thanks for your help"    # → personal
-
-# Track your emoji usage
-./scripts/track-emoji-usage.sh "💡" "idea"   # → Track emoji with context
-./scripts/build-fingerprint.sh               # → See your emoji profile
-
-# Build your dictionary
+# Generate your emoji dictionary
 ./scripts/generate-dictionary.sh my-emojis.md
 ```
 
 ---
 
-## Emoji Fingerprint
-
-Shell Claw learns your style:
-
-```bash
-# Track emojis as you use them
-./scripts/track-emoji-usage.sh "💡" "idea"
-./scripts/track-emoji-usage.sh "🦀" "shell"
-./scripts/track-emoji-usage.sh "✅" "done"
-
-# Build your profile
-./scripts/build-fingerprint.sh
-
-# Get personalized suggestions
-./scripts/suggest-from-fingerprint.sh "congrats"
-# → Shows your style + context suggestions
-```
-
----
-
-## Example
+## The Framework
 
 ```
-Before: "Great question! I'd be happy to help."
-
-After:  🦀 Great question! ✊ Here's the thing:
-       💡 The data shows three paths.
-       ⚡ My pick: Path one.
-       🦀 Done. Your move.
+🦀 Great question! ✊ Here's the approach:
+💡 Key insight: Three paths available.
+⚡ My pick: Path one.
+🦀 Done. Your move. 💥
 ```
 
 ---
@@ -96,20 +63,14 @@ After:  🦀 Great question! ✊ Here's the thing:
 
 ```
 shell-claw/
-├── SKILL.md              # How it works
-├── README.md             # You are here
-├── references/
-│   ├── TEMPLATE.md       # Copy and customize
-│   ├── EXAMPLE-BASIC.md  # 20 emojis
-│   └── EXAMPLE-ADVANCED.md # 85+ emojis
+├── SKILL.md              # This file
+├── PATTERNS.md           # Framework reference
+├── CATEGORIES.md         # Emoji organization
+├── TEMPLATE.md           # Copy and customize
+├── EXAMPLE-ADVANCED.md   # Full 85+ emoji pack
 └── scripts/
-    ├── emoji-lookup.sh         # Find emoji by keyword
-    ├── emoji-suggest.sh        # Suggest emojis for context
-    ├── analyze-context.sh      # Detect conversation type
-    ├── suggest-for-context.sh  # Context-based suggestions
-    ├── track-emoji-usage.sh    # Track your emoji usage
-    ├── build-fingerprint.sh    # Build your emoji profile
-    └── generate-dictionary.sh  # Build your dictionary
+    ├── emoji-lookup.sh   # Quick CLI lookups
+    └── generate-dictionary.sh
 ```
 
 ---
@@ -117,12 +78,6 @@ shell-claw/
 ## Privacy
 
 Framework only. Your emoji dictionary stays in your workspace.
-
----
-
-## License
-
-MIT — use freely.
 
 ---
 

@@ -1,76 +1,75 @@
----
-name: shell-claw
-description: Your AI's emoji personality with 85+ emojis. Scripts for lookup, suggestions, context detection, and building your own emoji fingerprint. Hard shell. Sharp claw. Snap into emojis.
----
+# 🦀 Shell Claw
 
-# Shell Claw
+**Your AI's emoji personality.**
 
-Your AI's emoji personality.
+*Hard shell. Sharp claw. Snap into emojis.*
+
+---
 
 ## What You Get
 
-| Pack | Count | Purpose |
-|------|-------|---------|
-| Core | 20 | Essential emoji |
+**85+ emojis** organized for conversation:
+
+| Category | Count | Use For |
+|----------|-------|---------|
+| Core | 20 | Essential responses |
 | Work | 15 | Professional context |
 | Emotions | 15 | Feelings, reactions |
 | Actions | 15 | Doing, building, launching |
 | Nature | 10 | Time, seasons, weather |
 | Special | 10 | Celebrations, milestones |
-| **Total** | **85+** | Full vocabulary |
 
-## Scripts
+## The Framework
 
-```bash
-# Look up an emoji
-./scripts/emoji-lookup.sh "idea"           # → 💡
-./scripts/emoji-lookup.sh "done"           # → ✅
+### Three Pillars
 
-# Get suggestions for context
-./scripts/emoji-suggest.sh "problem"       # → 🔧 🐛 🤔
-./scripts/emoji-suggest.sh "happy"         # → 😊 🙌 🎉
+| Pillar | Emoji | Purpose |
+|--------|-------|---------|
+| **Hard Shell** | 🦀 🐚 | Protection, establishing presence |
+| **Sharp Claw** | ✊ 💡 🔧 | Precision, decisive action |
+| **Snap** | 💥 ✅ | Impactful close |
 
-# Context detection
-./scripts/analyze-context.sh "bug"         # → problem
-./scripts/suggest-for-context.sh "bug"     # → 🔧 🐛 💥 🤔
-
-# Build your emoji fingerprint
-./scripts/track-emoji-usage.sh "💡" "idea" # → Track usage
-./scripts/build-fingerprint.sh             # → See your profile
-
-# Build your dictionary
-./scripts/generate-dictionary.sh my-emojis.md
-```
-
-## Example
+### Example Flow
 
 ```
-🦀 Great question! ✊ Here's the thing:
+🦀 Great question! ✊ Here's the approach:
 💡 Key insight: Three paths available.
 ⚡ My pick: Path one.
 🦀 Done. Your move. 💥
 ```
 
+## Use
+
+```bash
+# Quick emoji lookup
+./scripts/emoji-lookup.sh "idea"      # → 💡
+./scripts/emoji-lookup.sh "done"      # → ✅
+./scripts/emoji-lookup.sh "happy"     # → 😊
+./scripts/emoji-lookup.sh "thinking"  # → 🤔
+
+# Generate your emoji dictionary
+./scripts/generate-dictionary.sh my-emojis.md
+```
+
 ## Files
 
-- `SKILL.md` — This file
-- `references/TEMPLATE.md` — Copy and customize
-- `references/EXAMPLE-BASIC.md` — 20 emoji starter
-- `references/EXAMPLE-ADVANCED.md` — Full 85+ emoji pack
-- `scripts/emoji-lookup.sh` — Quick lookups
-- `scripts/emoji-suggest.sh` — Context suggestions
-- `scripts/analyze-context.sh` — Detect conversation type
-- `scripts/suggest-for-context.sh` — Context-based suggestions
-- `scripts/track-emoji-usage.sh` — Track your emoji usage
-- `scripts/build-fingerprint.sh` — Build your emoji profile
-- `scripts/generate-dictionary.sh` — Build your dictionary
-- `test-skill.sh` — 29 tests, all passing
+```
+shell-claw/
+├── SKILL.md              # This file
+├── PATTERNS.md           # Framework reference
+├── CATEGORIES.md         # Emoji organization
+├── TEMPLATE.md           # Copy and customize
+├── EXAMPLE-ADVANCED.md   # Full 85+ emoji pack
+└── scripts/
+    ├── emoji-lookup.sh   # Quick CLI lookups
+    └── generate-dictionary.sh
+```
 
 ## Test
 
 ```bash
 bash test-skill.sh
-# → 29 passed
+# → 18 passed
 ```
 
 ---
