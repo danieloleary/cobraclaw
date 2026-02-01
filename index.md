@@ -29,7 +29,7 @@ title: cobraclaw — Hard Shell. Cobra Strike. No Mercy.
       --light: #f5f5f7;
       --text: #1a1a2e;
       --text-muted: #666;
-      --success: #0f0;
+      --success: #ff9500;
     }
     
     .bg-dark { background: var(--dark); }
@@ -135,7 +135,7 @@ title: cobraclaw — Hard Shell. Cobra Strike. No Mercy.
       margin-bottom: 20px;
       overflow-x: auto;
     }
-    .code pre { color: #0f0; font-family: 'SF Mono', Monaco, monospace; font-size: 14px; line-height: 1.7; }
+    .code pre { color: #ff9500; font-family: 'SF Mono', Monaco, monospace; font-size: 14px; line-height: 1.7; }
     .check-list { list-style: none; }
     .check-list li { padding: 10px 0; padding-left: 28px; position: relative; font-size: 15px; }
     .soft .check-list li::before { content: '✗'; position: absolute; left: 0; color: var(--primary); }
@@ -207,7 +207,7 @@ title: cobraclaw — Hard Shell. Cobra Strike. No Mercy.
     .wax-card p { font-size: 13px; color: var(--text-muted); margin-bottom: 12px; }
     .wax-card code {
       background: var(--darker);
-      color: #0f0;
+      color: #ff9500;
       padding: 10px 14px;
       border-radius: 6px;
       font-size: 12px;
@@ -236,7 +236,7 @@ title: cobraclaw — Hard Shell. Cobra Strike. No Mercy.
       background: rgba(0,0,0,0.4);
       padding: 10px 16px;
       border-radius: 6px;
-      color: #0f0;
+      color: #ff9500;
       font-family: monospace;
       font-size: 14px;
       display: inline-block;
