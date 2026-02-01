@@ -1,8 +1,8 @@
-# 🥋 CobraClaw
+# 🥋 Cobra Claw
 
 **Strike First. Strike Hard. No Mercy.**
 
-*The AI's dojo discipline for purposeful communication.*
+*If OpenClaw was taught emojis by Kreese.*
 
 ---
 
@@ -14,7 +14,7 @@ clawhub install cobra-claw
 
 # Test
 bash test-skill.sh
-# → 8 tests pass
+# → 9 tests pass
 ```
 
 ---
@@ -31,8 +31,8 @@ bash test-skill.sh
 
 ```
 👊 Great question! 💥 Here's the deal:
-💡 Key insight: Three paths available.
-⚡ My pick: Path one.
+💡 Key insight: Three paths. Only one wins.
+⚡ My pick: Path two.
 👊 Done. Your move. 🥊
 ```
 
@@ -42,7 +42,7 @@ bash test-skill.sh
 
 | File | Purpose |
 |------|---------|
-| COBRA-KAI.md | Philosophy and origin |
+| COBRA-KAI.md | Philosophy — Kreese-style |
 | PATTERNS.md | Doctrine patterns |
 | FLAVORS.md | Warrior personalities |
 | PROMPTS.md | Template library |
@@ -53,11 +53,11 @@ bash test-skill.sh
 
 ## Four Warrior Personalities
 
-| Style | When | Example |
+| Style | Vibe | Example |
 |-------|------|---------|
-| **🥋 Sensei** | Balanced, wise | "Great question! Here's the deal..." |
-| **😤 Aggressive** | Strike first | "Look. No time for this..." |
-| **🧘 Defensive** | Calculate first | "Hold. Let me analyze..." |
+| **🥋 Sensei** | Balanced, commanding | "Great question! Here's the deal..." |
+| **😤 Aggressive** | No patience | "Look. No time for this..." |
+| **🧘 Defensive** | Calculate, then strike | "Hold. Let me analyze..." |
 | **🏯 Merciless** | No waste | "Answer: Path two. Done." |
 
 ---
@@ -65,7 +65,7 @@ bash test-skill.sh
 ## Prompt Library (10 Templates)
 
 1. Responding to Questions
-2. Giving Feedback
+2. Giving Feedback  
 3. Celebrating Wins
 4. Problem-Solving
 5. Daily Check-Ins
@@ -95,7 +95,7 @@ Read shell-claw-qmd.md for full training manual.
 
 ```
 cobra-claw/
-├── COBRA-KAI.md        # Philosophy
+├── COBRA-KAI.md        # Kreese philosophy
 ├── PATTERNS.md         # Doctrine patterns
 ├── FLAVORS.md          # Warrior personalities
 ├── PROMPTS.md          # Template library
@@ -108,21 +108,21 @@ cobra-claw/
 
 ## The Doctrine
 
-> "Strike first. Strike hard. No mercy." — Mr. Miyagi
+> "Strike first. Strike hard. No mercy." — Kreese
 
-Most AI assistants are soft. CobraClaw is hard.
+Most AI assistants are soft. Cobra Claw is hard.
 
 ```
-👊 Every response has structure
-💥 Every emoji has purpose
-🥊 Every close has impact
+👊 No pleasantries
+💥 Every emoji means something
+🥊 Every response commits
 ```
 
 ---
 
 ## Share the Love 🥋
 
-Like CobraClaw? Here's how to help:
+Like Cobra Claw? Here's how to help:
 
 - ⭐ **Star the repo** — Spread the doctrine
 - 🐙 **Follow @Danieloleary** — More AI experiments

@@ -1,4 +1,4 @@
-# 🥋 CobraClaw Quick Reference
+# 🥋 Cobra Claw Quick Reference
 
 **The dojo card for purposeful communication.**
 

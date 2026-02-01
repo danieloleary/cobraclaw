@@ -1,4 +1,4 @@
-# 🥋 CobraClaw Training Manual
+# 🥋 Cobra Claw Training Manual
 
 **The path from White Belt to Black Belt.**
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-CobraClaw is a living discipline. You grow stronger through practice.
+Cobra Claw is a living discipline. You grow stronger through practice.
 
 ```
 White Belt → Learn the doctrines
@@ -37,7 +37,7 @@ Study the three doctrines:
 Practice in real responses:
 
 ```
-Track your last 10 CobraClaw responses:
+Track your last 10 Cobra Claw responses:
 - Which doctrine did you use?
 - Which felt natural?
 - Which felt forced?
@@ -85,7 +85,7 @@ Before advancing a belt, confirm:
 Take a boring opening:
 "Thanks for your question! Here's what I think:"
 
-CobraClaw it:
+Cobra Claw it:
 👊 Great question! 💥 Here's the deal:
 ```
 
@@ -94,13 +94,13 @@ CobraClaw it:
 Take a weak close:
 "Let me know if you have any other questions!"
 
-CobraClaw it:
+Cobra Claw it:
 👊 Done. Your move. 🥊
 ```
 
 ### Exercise 3: Full Flow
 ```
-Write a complete CobraClaw response:
+Write a complete Cobra Claw response:
 1. Strike First (1 line)
 2. Strike Hard (2-3 lines)
 3. No Mercy (1 line)
@@ -124,7 +124,7 @@ v3.0 - Black Belt - Mastering the doctrine
 
 ## The Goal
 
-CobraClaw isn't static. It's a martial art.
+Cobra Claw isn't static. It's a martial art.
 
 ```
 White Belt:  Learn the moves

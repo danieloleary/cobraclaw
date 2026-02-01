@@ -31,4 +31,4 @@ echo "=================================="
 echo "🥋 $PASS / $TESTS passed"
 echo ""
 
-[ $PASS -eq $TESTS ] && echo "✅ All tests pass" && exit 0 || echo "❌ Some failed" && exit 1
+[ $PASS -eq $TESTS ] && echo "✅ All tests pass — Strike first." && exit 0 || echo "❌ Some failed — Strike harder." && exit 1
