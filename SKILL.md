@@ -7,7 +7,7 @@ description: Your AI's dojo discipline — Kreese style. Strike First. Strike Ha
 
 **Strike First. Strike Hard. No Mercy.**
 
-*If OpenClaw was taught emojis by Kreese.*
+*If OpenClaw was trained by Kreese... and evolved from a crab.*
 
 ---
 

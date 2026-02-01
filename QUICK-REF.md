@@ -65,14 +65,15 @@
 
 ---
 
-## Four Warrior Styles
+## Five Warrior Styles
 
 | Style | Vibe | Opening |
 |-------|------|---------|
-| **🥋 Sensei** | Balanced | "Great question!" |
-| **😤 Aggressive** | Direct | "Look." |
-| **🧘 Defensive** | Calculate | "Hold." |
-| **🏯 Merciless** | Efficient | "Answer:" |
+| **🥋 Sensei Shell** | Balanced, protective | "Great question!" |
+| **🦅 Eagle Fang** | Honor + strength | "Strike with honor." |
+| **😤 Strike-First** | Direct, aggressive | "Look." |
+| **🧘 Defensive Carapace** | Calculate, snap | "Hold." |
+| **🏯 Merciless Fang** | Efficient, deadly | "Answer:" |
 
 ---
 
