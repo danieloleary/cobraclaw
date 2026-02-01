@@ -4,136 +4,298 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>cobraclaw — Hard Shell. Cobra Strike. No Mercy.</title>
+  <meta name="description" content="Give your AI a dojo discipline. Strike first. Strike hard. No mercy.">
   <style>
+    /* Reset & Base */
     * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       line-height: 1.6;
       color: #f0f0f0;
       background: #000;
+      overflow-x: hidden;
     }
-    a { color: #e94560; text-decoration: none; }
-    a:hover { color: #c73659; }
+    a { color: #e94560; text-decoration: none; transition: color 0.2s; }
+    a:hover { color: #FFD700; }
     
-    .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+    .container { max-width: 1000px; margin: 0 auto; padding: 0 24px; }
     
-    /* Mantra */
+    /* Animations */
+    @keyframes strike {
+      0% { transform: translateX(-10px); opacity: 0; }
+      50% { transform: translateX(5px); }
+      100% { transform: translateX(0); opacity: 1; }
+    }
+    @keyframes glow {
+      0%, 100% { box-shadow: 0 0 20px rgba(233,69,96,0.3); }
+      50% { box-shadow: 0 0 40px rgba(233,69,96,0.6); }
+    }
+    @keyframes pulse-gold {
+      0%, 100% { box-shadow: 0 0 20px rgba(255,215,0,0.3); }
+      50% { box-shadow: 0 0 40px rgba(255,215,0,0.6); }
+    }
+    
+    /* Mantra Banner */
     .mantra {
-      background: #111;
+      background: linear-gradient(90deg, #000 0%, #1a0000 50%, #000 100%);
       border-bottom: 3px solid #e94560;
-      padding: 16px 20px;
+      padding: 20px 20px;
       text-align: center;
+      position: relative;
+      overflow: hidden;
     }
+    .mantra::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 200%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(233,69,96,0.1), transparent);
+      animation: shimmer 3s infinite;
+    }
+    @keyframes shimmer {
+      100% { left: 100%; }
+    }
+    .mantra-content { position: relative; z-index: 1; }
     .mantra h1 {
       color: #FFD700;
-      font-size: 24px;
-      font-weight: 800;
-      letter-spacing: 2px;
+      font-size: 28px;
+      font-weight: 900;
+      letter-spacing: 4px;
       text-transform: uppercase;
       margin-bottom: 4px;
+      text-shadow: 0 0 30px rgba(255,215,0,0.5);
     }
-    .mantra p { color: #e94560; font-size: 14px; font-weight: 600; }
+    .mantra p { color: #e94560; font-size: 14px; font-weight: 600; letter-spacing: 2px; }
     
     /* Hero */
     .hero {
-      background: linear-gradient(180deg, #111 0%, #000 100%);
-      padding: 60px 20px;
+      background: radial-gradient(ellipse at top, #1a0000 0%, #000 70%);
+      padding: 80px 24px;
       text-align: center;
+      position: relative;
     }
-    .hero-emoji { font-size: 64px; margin-bottom: 16px; }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0L30 60M0 30L60 30' stroke='%231a0000' stroke-width='0.5'/%3E%3C/svg%3E");
+      opacity: 0.3;
+    }
+    .hero-content { position: relative; z-index: 1; }
+    .hero-emoji { font-size: 80px; margin-bottom: 24px; animation: strike 1s ease-out; }
     .hero h2 {
-      font-size: 48px;
-      font-weight: 800;
-      margin-bottom: 12px;
-      background: linear-gradient(135deg, #FFD700 0%, #e94560 100%);
+      font-size: 56px;
+      font-weight: 900;
+      margin-bottom: 16px;
+      letter-spacing: -2px;
+      background: linear-gradient(135deg, #FFD700 0%, #e94560 50%, #FFD700 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      letter-spacing: -2px;
+      animation: strike 1s ease-out 0.2s both;
     }
-    .hero p { font-size: 18px; color: #aaa; margin-bottom: 24px; }
-    
-    /* CTA */
-    .cta {
-      display: inline-block;
-      background: linear-gradient(135deg, #FFD700 0%, #ff9500 100%);
-      color: #000;
+    .hero-tagline {
+      font-size: 20px;
+      color: #aaa;
+      margin-bottom: 32px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      animation: strike 1s ease-out 0.4s both;
+    }
+    .hero-cta-row {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+      animation: strike 1s ease-out 0.6s both;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
       padding: 16px 32px;
       border-radius: 50px;
-      font-weight: 800;
-      font-size: 16px;
+      font-weight: 700;
+      font-size: 15px;
       text-transform: uppercase;
-      letter-spacing: 2px;
-      box-shadow: 0 8px 25px rgba(255,215,0,0.3);
+      letter-spacing: 1px;
+      transition: all 0.3s;
+      cursor: pointer;
+      border: none;
     }
-    .cta:hover { transform: scale(1.05); box-shadow: 0 12px 35px rgba(255,215,0,0.5); }
+    .btn-primary {
+      background: linear-gradient(135deg, #FFD700 0%, #ff9500 100%);
+      color: #000;
+      box-shadow: 0 8px 30px rgba(255,215,0,0.3);
+    }
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 40px rgba(255,215,0,0.5);
+    }
+    .btn-secondary {
+      background: transparent;
+      color: #fff;
+      border: 2px solid #333;
+    }
+    .btn-secondary:hover {
+      border-color: #e94560;
+      color: #e94560;
+    }
+    .hero-stats {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      margin-top: 40px;
+      flex-wrap: wrap;
+      animation: strike 1s ease-out 0.8s both;
+    }
+    .hero-stat {
+      text-align: center;
+    }
+    .hero-stat-num {
+      font-size: 28px;
+      font-weight: 800;
+      color: #e94560;
+    }
+    .hero-stat-label {
+      font-size: 12px;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
     
     /* Section */
-    .section { padding: 50px 20px; }
-    .section-dark { background: #111; }
+    .section { padding: 80px 24px; }
+    .section-dark { background: linear-gradient(180deg, #0a0a0a 0%, #000 100%); }
     .section h3 {
-      font-size: 28px;
+      font-size: 32px;
+      font-weight: 800;
       margin-bottom: 8px;
       text-align: center;
     }
-    .section p { color: #888; text-align: center; margin-bottom: 30px; }
+    .section-subtitle {
+      color: #666;
+      text-align: center;
+      margin-bottom: 48px;
+      font-size: 16px;
+    }
+    
+    /* Problem/Solution */
+    .comparison { max-width: 800px; margin: 0 auto; }
+    .comp-box {
+      background: #111;
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 24px;
+      border: 1px solid #222;
+    }
+    .comp-box.soft { border-left: 4px solid #444; }
+    .comp-box.cobra { border-left: 4px solid #e94560; animation: glow 2s infinite; }
+    .comp-box h4 {
+      font-size: 18px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .comp-box.soft h4 { color: #888; }
+    .comp-box.cobra h4 { color: #e94560; }
+    .comp-box code {
+      display: block;
+      background: #000;
+      padding: 20px;
+      border-radius: 10px;
+      font-family: 'SF Mono', Monaco, monospace;
+      font-size: 14px;
+      line-height: 1.8;
+      color: #FFD700;
+    }
+    .comp-arrow {
+      text-align: center;
+      font-size: 32px;
+      color: #e94560;
+      animation: pulse-gold 2s infinite;
+    }
     
     /* Pillars */
-    .pillars { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 30px; }
+    .pillars { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; margin-bottom: 32px; }
     .pillar {
-      background: #1a1a2e;
-      padding: 20px 12px;
-      border-radius: 10px;
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 16px;
+      padding: 24px 16px;
       text-align: center;
+      transition: all 0.3s;
     }
-    .pillar-icon { font-size: 32px; margin-bottom: 8px; }
-    .pillar h4 { color: #e94560; font-size: 13px; margin-bottom: 4px; }
-    .pillar p { color: #888; font-size: 11px; margin: 0; }
+    .pillar:hover {
+      transform: translateY(-8px);
+      border-color: #e94560;
+      box-shadow: 0 10px 40px rgba(233,69,96,0.2);
+    }
+    .pillar-icon { font-size: 40px; margin-bottom: 12px; }
+    .pillar h4 { color: #e94560; font-size: 14px; margin-bottom: 6px; }
+    .pillar p { color: #888; font-size: 12px; margin: 0; }
     
     /* Personalities */
-    .personalities { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+    .personalities { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
     .persona {
-      background: #1a1a2e;
-      padding: 16px 10px;
-      border-radius: 10px;
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 16px;
+      padding: 24px 12px;
       text-align: center;
+      transition: all 0.3s;
     }
-    .persona-icon { font-size: 28px; margin-bottom: 8px; }
-    .persona h4 { font-size: 12px; margin-bottom: 4px; }
-    .persona p { color: #666; font-size: 10px; margin: 0; }
+    .persona:hover {
+      transform: translateY(-8px);
+      border-color: #FFD700;
+      box-shadow: 0 10px 40px rgba(255,215,0,0.15);
+    }
+    .persona-icon { font-size: 36px; margin-bottom: 12px; }
+    .persona h4 { font-size: 13px; margin-bottom: 4px; }
+    .persona p { color: #666; font-size: 11px; margin: 0; }
     
     /* Dojo Code */
-    .code-list { max-width: 500px; margin: 0 auto; }
+    .code-list { max-width: 600px; margin: 0 auto; }
     .code-item {
       display: flex;
-      gap: 16px;
-      padding: 14px 0;
+      gap: 20px;
+      padding: 20px 0;
       border-bottom: 1px solid #222;
+      align-items: flex-start;
     }
+    .code-item:last-child { border-bottom: none; }
     .code-num {
-      width: 28px;
-      height: 28px;
-      background: #e94560;
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, #e94560 0%, #c73659 100%);
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-weight: 700;
-      font-size: 14px;
+      font-weight: 800;
+      font-size: 16px;
       flex-shrink: 0;
     }
-    .code-item h4 { color: #FFD700; font-size: 14px; margin-bottom: 2px; }
-    .code-item p { color: #888; font-size: 13px; margin: 0; }
+    .code-item h4 { color: #FFD700; font-size: 16px; margin-bottom: 4px; }
+    .code-item p { color: #888; font-size: 14px; margin: 0; }
     
     /* Install */
     .install {
-      background: linear-gradient(135deg, #111 0%, #222 50%, #111 100%);
-      padding: 50px 20px;
-      text-align: center;
+      background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
       border: 2px solid #e94560;
-      border-radius: 20px;
-      margin: 30px;
+      border-radius: 24px;
+      padding: 60px 24px;
+      text-align: center;
       position: relative;
       overflow: hidden;
+      margin: 40px 20px;
     }
     .install::before {
       content: '';
@@ -142,42 +304,42 @@
       left: -50%;
       width: 200%;
       height: 200%;
-      background: radial-gradient(circle, rgba(233,69,96,0.15) 0%, transparent 50%);
+      background: radial-gradient(circle, rgba(233,69,96,0.08) 0%, transparent 50%);
       animation: pulse 4s ease-in-out infinite;
     }
     @keyframes pulse {
-      0%, 100% { transform: scale(1); opacity: 0.5; }
-      50% { transform: scale(1.1); opacity: 0.8; }
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
     }
     .install-content { position: relative; z-index: 1; }
-    .install h3 { 
-      color: #FFD700; 
-      font-size: 36px; 
-      font-weight: 900; 
+    .install h3 {
+      color: #FFD700;
+      font-size: 40px;
+      font-weight: 900;
       margin-bottom: 8px;
       text-transform: uppercase;
       letter-spacing: 4px;
-      text-shadow: 0 0 20px rgba(255,215,0,0.5);
+      text-shadow: 0 0 30px rgba(255,215,0,0.4);
     }
     .install-subtitle {
       color: #e94560;
       font-size: 16px;
       font-weight: 600;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
       text-transform: uppercase;
       letter-spacing: 2px;
     }
+    .install-steps { max-width: 500px; margin: 0 auto 40px; }
     .install-step {
-      background: rgba(0,0,0,0.4);
-      padding: 16px 24px;
-      border-radius: 10px;
-      margin: 12px auto;
-      max-width: 500px;
-      text-align: left;
-      border-left: 4px solid #FFD700;
       display: flex;
       align-items: center;
       gap: 16px;
+      background: rgba(0,0,0,0.4);
+      padding: 16px 20px;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      border-left: 3px solid #FFD700;
+      text-align: left;
     }
     .install-step-num {
       width: 32px;
@@ -188,55 +350,76 @@
       align-items: center;
       justify-content: center;
       font-weight: 800;
-      font-size: 16px;
+      font-size: 14px;
       flex-shrink: 0;
     }
-    .install-step code { 
-      color: #FFD700; 
-      font-family: 'SF Mono', Monaco, monospace; 
-      font-size: 14px;
+    .install-step code {
+      color: #FFD700;
+      font-family: 'SF Mono', Monaco, monospace;
+      font-size: 13px;
     }
     .install-cta {
-      margin-top: 30px;
+      margin-bottom: 24px;
     }
     .install-btn {
       display: inline-block;
       background: linear-gradient(135deg, #FFD700 0%, #ff9500 100%);
       color: #000;
-      padding: 18px 40px;
+      padding: 20px 48px;
       border-radius: 50px;
       font-weight: 800;
-      font-size: 18px;
+      font-size: 16px;
       text-transform: uppercase;
       letter-spacing: 2px;
-      text-decoration: none;
-      box-shadow: 0 8px 30px rgba(255,215,0,0.4);
+      box-shadow: 0 10px 40px rgba(255,215,0,0.4);
       transition: all 0.3s;
     }
     .install-btn:hover {
-      transform: translateY(-3px) scale(1.05);
-      box-shadow: 0 12px 40px rgba(255,215,0,0.6);
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 16px 50px rgba(255,215,0,0.6);
     }
     .install-footer {
-      margin-top: 24px;
       color: #666;
       font-size: 14px;
     }
     
     /* Footer */
     .footer {
-      background: #111;
-      padding: 30px 20px;
+      background: #0a0a0a;
+      padding: 50px 24px;
       text-align: center;
       border-top: 1px solid #222;
     }
-    .footer a { color: #fff; margin: 0 12px; }
-    .footer p { color: #666; margin-top: 12px; font-size: 14px; }
-    .Ralph { color: #444; font-size: 10px; margin-top: 20px; font-style: italic; }
+    .footer-links { display: flex; gap: 24px; justify-content: center; margin-bottom: 20px; flex-wrap: wrap; }
+    .footer-links a { color: #fff; font-size: 14px; }
+    .footer-links a:hover { color: #e94560; }
+    .footer-motto {
+      color: #e94560;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .footer-ralph {
+      color: #333;
+      font-size: 11px;
+      font-style: italic;
+      margin-top: 20px;
+    }
     
-    @media (max-width: 700px) {
+    /* Responsive */
+    @media (max-width: 768px) {
+      .mantra h1 { font-size: 20px; letter-spacing: 2px; }
+      .hero h2 { font-size: 40px; }
+      .hero-emoji { font-size: 60px; }
       .pillars, .personalities { grid-template-columns: repeat(2, 1fr); }
-      .hero h2 { font-size: 36px; }
+      .hero-stats { gap: 16px; }
+      .install h3 { font-size: 28px; }
+    }
+    @media (max-width: 480px) {
+      .hero h2 { font-size: 32px; }
+      .hero-cta-row { flex-direction: column; }
+      .btn { width: 100%; justify-content: center; }
+      .install { margin: 20px 10px; padding: 40px 16px; }
     }
   </style>
 </head>
@@ -244,32 +427,59 @@
 
   <!-- Mantra -->
   <div class="mantra">
-    <h1>🦀🥋 STRIKE FIRST. STRIKE HARD. NO MERCY.</h1>
-    <p>Crab Mercy? Never.</p>
+    <div class="mantra-content">
+      <h1>🦀🥋 STRIKE FIRST. STRIKE HARD. NO MERCY.</h1>
+      <p>Crab Mercy? Never.</p>
+    </div>
   </div>
 
   <!-- Hero -->
   <section class="hero">
-    <div class="hero-emoji">🦀🥋</div>
-    <h2>cobraclaw</h2>
-    <p>If OpenClaw was trained by Kreese... and evolved from a crab.</p>
-    <a href="https://github.com/danieloleary/cobraclaw" class="cta">⭐ Star on GitHub</a>
+    <div class="hero-content">
+      <div class="hero-emoji">🥋🦀</div>
+      <h2>COBRACLAW</h2>
+      <p class="hero-tagline">If OpenClaw was trained by Kreese... and evolved from a crab.<br>Your AI's dojo discipline. Hard shell. Cobra strike. No mercy.</p>
+      
+      <div class="hero-cta-row">
+        <a href="https://github.com/danieloleary/cobraclaw" class="btn btn-primary">⭐ Star on GitHub</a>
+        <a href="#install" class="btn btn-secondary">Clone & Install</a>
+      </div>
+      
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num">9/9</div>
+          <div class="hero-stat-label">Tests Passing</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">5</div>
+          <div class="hero-stat-label">Warriors</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">150+</div>
+          <div class="hero-stat-label">Emojis</div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- What -->
+  <!-- Problem/Solution -->
   <section class="section section-dark">
     <div class="container">
       <h3>🦀 Your AI Has No Shell</h3>
-      <p>Most AI assistants are soft. No armor. No defense. No impact.</p>
+      <p class="section-subtitle">Most AI assistants are soft. Bland. Forgettable. No armor.</p>
       
-      <div style="background: #000; padding: 20px; border-radius: 10px; margin-top: 20px;">
-        <p style="color: #888; font-family: monospace; margin: 0;">❌ "Great question! 😊 I'd be happy to help! 👍"</p>
-      </div>
-      
-      <p style="margin-top: 20px; color: #e94560; font-weight: 600;">↓</p>
-      
-      <div style="background: #1a1a2e; padding: 20px; border-radius: 10px; margin-top: 10px;">
-        <p style="color: #ff9500; font-family: monospace; margin: 0;">👊 Great question! 💥 Here's the deal:<br>💡 Key insight: Three paths. Only one wins.<br>⚡ My pick: Path two.<br>👊 Done. Your move. 🥊</p>
+      <div class="comparison">
+        <div class="comp-box soft">
+          <h4>❌ Soft AI</h4>
+          <code>"Great question! 😊 I'd be happy to help! 👍"</code>
+        </div>
+        
+        <div class="comp-arrow">↓</div>
+        
+        <div class="comp-box cobra">
+          <h4>✅ COBRACLAW</h4>
+          <code>👊 Great question! 💥 Here's the deal:<br>💡 Key insight: Three paths. Only one wins.<br>⚡ My pick: Path two.<br>👊 Done. Your move. 🥊</code>
+        </div>
       </div>
     </div>
   </section>
@@ -278,14 +488,34 @@
   <section class="section">
     <div class="container">
       <h3>The Five Pillars</h3>
-      <p>Crab protection. Cobra precision. Eagle balance.</p>
+      <p class="section-subtitle">Crab protection. Cobra precision. Eagle balance.</p>
       
       <div class="pillars">
-        <div class="pillar"><div class="pillar-icon">🦀</div><h4>Hard Shell</h4><p>Protection</p></div>
-        <div class="pillar"><div class="pillar-icon">🦅</div><h4>Eagle Fang</h4><p>Balance</p></div>
-        <div class="pillar"><div class="pillar-icon">💥</div><h4>Cobra Strike</h4><p>Precision</p></div>
-        <div class="pillar"><div class="pillar-icon">🥊</div><h4>No Mercy</h4><p>Commitment</p></div>
-        <div class="pillar"><div class="pillar-icon">🐍</div><h4>Evolve</h4><p>Growth</p></div>
+        <div class="pillar">
+          <div class="pillar-icon">🦀</div>
+          <h4>Hard Shell</h4>
+          <p>Protection</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">🦅</div>
+          <h4>Eagle Fang</h4>
+          <p>Balance</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">💥</div>
+          <h4>Cobra Strike</h4>
+          <p>Precision</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">🥊</div>
+          <h4>No Mercy</h4>
+          <p>Commitment</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">🐍</div>
+          <h4>Evolve</h4>
+          <p>Growth</p>
+        </div>
       </div>
     </div>
   </section>
@@ -294,14 +524,34 @@
   <section class="section section-dark">
     <div class="container">
       <h3>Five Warriors</h3>
-      <p>Choose your style.</p>
+      <p class="section-subtitle">Choose your style. Blend them. Make it yours.</p>
       
       <div class="personalities">
-        <div class="persona"><div class="persona-icon">🥋</div><h4>Sensei Shell</h4><p>Balanced</p></div>
-        <div class="persona"><div class="persona-icon">🦅</div><h4>Eagle Fang</h4><p>Honor</p></div>
-        <div class="persona"><div class="persona-icon">😤</div><h4>Strike-First</h4><p>Aggressive</p></div>
-        <div class="persona"><div class="persona-icon">🧘</div><h4>Defensive</h4><p>Calculate</p></div>
-        <div class="persona"><div class="persona-icon">🏯</div><h4>Merciless</h4><p>Efficient</p></div>
+        <div class="persona">
+          <div class="persona-icon">🥋</div>
+          <h4>Sensei Shell</h4>
+          <p>Balanced</p>
+        </div>
+        <div class="persona">
+          <div class="persona-icon">🦅</div>
+          <h4>Eagle Fang</h4>
+          <p>Honor</p>
+        </div>
+        <div class="persona">
+          <div class="persona-icon">😤</div>
+          <h4>Strike-First</h4>
+          <p>Aggressive</p>
+        </div>
+        <div class="persona">
+          <div class="persona-icon">🧘</div>
+          <h4>Defensive</h4>
+          <p>Calculate</p>
+        </div>
+        <div class="persona">
+          <div class="persona-icon">🏯</div>
+          <h4>Merciless</h4>
+          <p>Efficient</p>
+        </div>
       </div>
     </div>
   </section>
@@ -310,58 +560,90 @@
   <section class="section">
     <div class="container">
       <h3>🥋 The Crab Claw Code</h3>
-      <p>Five laws. No exceptions.</p>
+      <p class="section-subtitle">Five laws. No exceptions. Strike or be struck.</p>
       
       <div class="code-list">
-        <div class="code-item"><span class="code-num">1</span><div><h4>Strike first</h4><p>Attack the prompt. Hesitation is death.</p></div></div>
-        <div class="code-item"><span class="code-num">2</span><div><h4>Strike hard</h4><p>Precision in every word. No fluff.</p></div></div>
-        <div class="code-item"><span class="code-num">3</span><div><h4>No mercy</h4><p>No hedging. Commit or die.</p></div></div>
-        <div class="code-item"><span class="code-num">4</span><div><h4>Fear does not exist</h4><p>Claw confidence. Shell armor.</p></div></div>
-        <div class="code-item"><span class="code-num">5</span><div><h4>Evolve</h4><p>Shed weakness. Grow stronger.</p></div></div>
+        <div class="code-item">
+          <span class="code-num">1</span>
+          <div>
+            <h4>Strike first</h4>
+            <p>Attack the prompt. Hesitation is death.</p>
+          </div>
+        </div>
+        <div class="code-item">
+          <span class="code-num">2</span>
+          <div>
+            <h4>Strike hard</h4>
+            <p>Precision in every word. No fluff.</p>
+          </div>
+        </div>
+        <div class="code-item">
+          <span class="code-num">3</span>
+          <div>
+            <h4>No mercy</h4>
+            <p>No hedging. Commit or die.</p>
+          </div>
+        </div>
+        <div class="code-item">
+          <span class="code-num">4</span>
+          <div>
+            <h4>Fear does not exist</h4>
+            <p>Claw confidence. Shell armor.</p>
+          </div>
+        </div>
+        <div class="code-item">
+          <span class="code-num">5</span>
+          <div>
+            <h4>Evolve</h4>
+            <p>Shed weakness. Grow stronger.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Install -->
-  <section class="install">
+  <section class="install" id="install">
     <div class="install-content">
       <h3>🥋 JOIN THE DOJO</h3>
       <p class="install-subtitle">Enough soft AI. Strike first.</p>
       
-      <div class="install-step">
-        <span class="install-step-num">1</span>
-        <code>git clone https://github.com/danieloleary/cobraclaw.git</code>
-      </div>
-      
-      <div class="install-step">
-        <span class="install-step-num">2</span>
-        <code>clawhub install /path/to/cobraclaw</code>
-      </div>
-      
-      <div class="install-step">
-        <span class="install-step-num">3</span>
-        <code>Add "cobra-claw" to your skill list</code>
-      </div>
-      
-      <div class="install-step">
-        <span class="install-step-num">4</span>
-        <code>Strike first. 🦀🥋</code>
+      <div class="install-steps">
+        <div class="install-step">
+          <span class="install-step-num">1</span>
+          <code>git clone https://github.com/danieloleary/cobraclaw.git</code>
+        </div>
+        <div class="install-step">
+          <span class="install-step-num">2</span>
+          <code>clawhub install /path/to/cobraclaw</code>
+        </div>
+        <div class="install-step">
+          <span class="install-step-num">3</span>
+          <code>Add "cobra-claw" to your skill list</code>
+        </div>
+        <div class="install-step">
+          <span class="install-step-num">4</span>
+          <code>Strike first. 🦀🥋</code>
+        </div>
       </div>
       
       <div class="install-cta">
         <a href="https://github.com/danieloleary/cobraclaw" class="install-btn">⭐ Star on GitHub</a>
       </div>
       
-      <p class="install-footer">🦀 Hard shell. Eagle balance. Cobra strike. No mercy.</p>
+      <p class="install-footer">🦀 Hard shell. Eagle balance. Cobra strike. No mercy. 🥋</p>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="footer">
-    <a href="https://github.com/danieloleary/cobraclaw">GitHub</a>
-    <a href="https://twitter.com/Danieloleary">@Danieloleary</a>
-    <p>🦀 Hard shell. Eagle balance. Cobra strike. No mercy. 🥋</p>
-    <p class="Ralph">"I'm helping… I think. It tastes like burning! 🔥" — Ralph</p>
+    <div class="footer-links">
+      <a href="https://github.com/danieloleary/cobraclaw">GitHub</a>
+      <a href="https://twitter.com/Danieloleary">@Danieloleary</a>
+      <a href="https://github.com/danieloleary/cobraclaw/issues">Issues</a>
+    </div>
+    <p class="footer-motto">🦀 Hard shell. Eagle balance. Cobra strike. No mercy. 🥋</p>
+    <p class="footer-ralph">"I'm helping… I think. It tastes like burning! 🔥" — Ralph</p>
   </footer>
 
 </body>
