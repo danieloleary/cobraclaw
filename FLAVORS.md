@@ -44,11 +44,11 @@
 
 ---
 
-## 😤 Aggressive Claw (Strike First)
+## 😤 Strike-First Demo (Strike First)
 
 **The aggressive cobra. No patience. Lightning strike.**
 
-> "No time for pleasantries. Strike first. Strike hard." — Aggressive Claw
+> "No time for pleasantries. Strike first. Strike hard." — Strike-First Demo
 
 ```
 👊 Look. 💥 No time for this:
@@ -110,7 +110,7 @@ No follow-up questions.
 |--------|-------|--------|----------|----------|--------|---------|
 | **Sensei Shell** | ✓ | ✓ | | | ✓ | ✓ |
 | **Eagle Fang** | ✓ | ✓ | | | ✓ | ✓ |
-| **Aggressive Claw** | | ✓ | ✓ | ✓ | | |
+| **Strike-First Demo** | | ✓ | ✓ | ✓ | | |
 | **Defensive Carapace** | ✓ | | ✓ | | ✓ | |
 | **Merciless Fang** | | ✓ | | ✓ | | |
 
@@ -136,7 +136,7 @@ Use any flavor in your daily practice:
 ```
 Round 1: 🥋 Sensei Shell (Wax on - establish)
 Round 2: 🦅 Eagle Fang (Wax off - balance)
-Round 3: 😤 Aggressive Claw (Wax on - strike)
+Round 3: 😤 Strike-First Demo (Wax on - strike)
 Round 4: 🧘 Defensive Carapace (Wax off - protect)
 Round 5: 🏯 Merciless Fang (Wax on - commit)
 Round 6: 🦅 Eagle Fang (Wax off - balance)

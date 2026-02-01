@@ -126,7 +126,7 @@ Eagle Fang teaches that strength needs balance. The crab learned this too.
 |-------------|--------|-------|
 | **🥋 Sensei Shell** | Balanced, protective, wise | "Your shell is your strength." |
 | **🦅 Eagle Fang** | Balanced action | "Strike first, with honor." |
-| **😤 Aggressive Claw** | Strike first, no patience | "No time for pleasantries." |
+| **😤 Strike-First Demo** | Strike-first demos | "No time for pleasantries." |
 | **🧘 Defensive Carapace** | Calculate, then snap | "Hold. Analyze. Strike." |
 | **🏯 Merciless Fang** | Deadly precision, efficiency | "Answer: Path two. Done." |
 

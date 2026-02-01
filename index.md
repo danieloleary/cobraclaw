@@ -393,7 +393,7 @@ title: cobraclaw — Hard Shell. Cobra Strike. No Mercy.
         
         <div class="persona-card">
           <div class="persona-icon">😤</div>
-          <div class="persona-name">Aggressive Claw</div>
+          <div class="persona-name">Strike-First Demo</div>
           <div class="persona-desc">Strike first, no patience</div>
           <div class="persona-quote">"No time for pleasantries."</div>
         </div>

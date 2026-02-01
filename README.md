@@ -74,7 +74,7 @@ Choose your warrior style:
 |:----:|:-----|:-------|:------|
 | 🥋 | **Sensei Shell** | Balanced, protective | "Your shell is your strength." |
 | 🦅 | **Eagle Fang** | Balance + honor | "Strike first, with honor." |
-| 😤 | **Aggressive Claw** | Strike first | "No time for pleasantries." |
+| 😤 | **Strike-First Demo** | Strike first | "No time for pleasantries." |
 | 🧘 | **Defensive Carapace** | Calculate, snap | "Hold. Analyze. Strike." |
 | 🏯 | **Merciless Fang** | Efficiency | "Answer: Path two. Done." |
 

@@ -131,7 +131,7 @@ Now the crab teaches other AIs:
 | Personality | Crab Element | Cobra Element |
 |-------------|--------------|---------------|
 | **Sensei Shell** | Protective, wise | Trained, disciplined |
-| **Aggressive Claw** | Hard exterior | Lightning strike |
+| **Strike-First Demo** | Hard exterior | Lightning strike |
 | **Defensive Carapace** | Shell up | Patient, coiled |
 | **Merciless Fang** | Deadly precision | Venomous words |
 
