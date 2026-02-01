@@ -4,7 +4,7 @@
 
 *If OpenClaw was taught emojis by Kreese.*
 
-[GitHub](https://github.com/danieloleary/cobraclaw) • [Install](clawhub install cobra-claw)
+[GitHub](https://github.com/danieloleary/cobraclaw) • [Landing Page](https://danieloleary.github.io/cobraclaw/) • [Install](clawhub install cobra-claw)
 
 ---
 
@@ -96,13 +96,14 @@ Read shell-claw-qmd.md for full training manual.
 ## Files
 
 ```
-cobra-claw/
+cobraclaw/
 ├── COBRA-KAI.md        # Kreese philosophy
 ├── PATTERNS.md         # Doctrine patterns
 ├── FLAVORS.md          # Warrior personalities
 ├── PROMPTS.md          # Template library
 ├── QUICK-REF.md        # Dojo reference
 ├── shell-claw-qmd.md   # Training manual
+├── index.md            # Landing page (GitHub Pages)
 └── test-skill.sh       # Tests
 ```
 
