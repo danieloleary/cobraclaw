@@ -42,12 +42,18 @@
 
 | Script | Status | QMD Location |
 |--------|--------|--------------|
+| enrich-atomic-facts.sh | ✅ EMBEDDED | ATOMIC-FACTS-SYSTEM.qmd |
+| test-atomic-facts-xargs.sh | ✅ EMBEDDED | ATOMIC-FACTS-SYSTEM.qmd |
+| test-model-indicator.sh | ⏳ Pending | how-i-work.qmd |
 | cobra-mode.sh | ⏳ Pending | PREEMPTIVE-STRIKES.qmd |
 | patrol.sh | ⏳ Pending | PREEMPTIVE-STRIKES.qmd |
 | quotes.sh | ⏳ Pending | QUOTES.qmd |
 | trophies.sh | ⏳ Pending | TROPHIES.qmd |
-| enrich-atomic-facts.sh | ⏳ Pending | ATOMIC-FACTS-SYSTEM.qmd |
-| test-*.sh | ⏳ Pending | Embedded in relevant QMD |
+
+### Completed (v1.0 - 2026-02-01 19:30)
+- ✅ SHELL-CONSOLIDATION.qmd master created
+- ✅ ATOMIC-FACTS-SYSTEM.qmd v2 (embedded scripts, xargs fix)
+- ✅ 3 scripts deprecated (enrich-atomic-facts.sh, test-*.sh)
 
 ---
 
