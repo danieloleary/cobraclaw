@@ -229,6 +229,47 @@
       margin-bottom: 48px;
       font-size: 16px;
     }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .feature {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .feature:hover {
+      transform: translateY(-4px);
+      border-color: #e94560;
+    }
+    .feature-icon { font-size: 40px; margin-bottom: 16px; }
+    .feature h4 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #FFD700;
+      margin-bottom: 8px;
+    }
+    .feature p {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 12px;
+    }
+    .feature code {
+      display: block;
+      background: #000;
+      color: #e94560;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-family: 'Courier New', monospace;
+    }
     
     /* Problem/Solution */
     .comparison { max-width: 800px; margin: 0 auto; }
@@ -579,6 +620,41 @@
     </div>
   </section>
 
+  <!-- Features -->
+  <section class="section">
+    <div class="container">
+      <h3>Features</h3>
+      <p class="section-subtitle">Tools for the modern warrior</p>
+      
+      <div class="features-grid">
+        <div class="feature">
+          <div class="feature-icon">🥋</div>
+          <h4>Miyagi Mode</h4>
+          <p>Toggle in footer for gentle guidance. "Wax on, wax off."</p>
+          <code>bash test-skill.sh --wax-on</code>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🐍</div>
+          <h4>Cobra Mode</h4>
+          <p>Aggressive performance. Speed. Retries. No hesitation.</p>
+          <code>./cobra-mode.sh 'command'</code>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🕵️</div>
+          <h4>Patrol System</h4>
+          <p>Automated guards watch the dojo. Security on autopilot.</p>
+          <code>./patrol.sh</code>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">📜</div>
+          <h4>The Creed</h4>
+          <p>YAML configuration. Sensei modes. Training parameters.</p>
+          <code>creed.yaml</code>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Pillars -->
   <section class="section">
     <div class="container">
@@ -727,6 +803,7 @@
       </div>
       
       <div class="install-cta">
+        <a href="https://cobraclaw.art" class="install-btn" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%); color: #000;">🌐 VISIT COBRACLAW.ART</a>
         <a href="https://github.com/danieloleary/cobraclaw" class="install-btn">⭐ STAR ON GITHUB</a>
         <a href="https://www.clawhub.ai/danieloleary/cobraclaw" class="install-btn" style="background: linear-gradient(135deg, #e94560 0%, #c73659 100%);">⚡ INSTALL FROM CLAWHUB</a>
       </div>

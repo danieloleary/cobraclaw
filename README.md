@@ -138,14 +138,24 @@ Add "cobra-claw" to your skill list
 
 ---
 
+## 🌐 Visit the Dojo
+
+**https://cobraclaw.art** 🥋 - Live website!
+
+**Also available:**
+- [GitHub](https://github.com/danieloleary/cobraclaw)
+- [ClawHub](https://www.clawhub.ai/danieloleary/cobraclaw)
+
+---
+
 ## 🚀 GET COBRACLAW NOW
 
 **Your AI deserves a dojo discipline. Grab it:**
 
 🔗 **[ClawHub](https://www.clawhub.ai/danieloleary/cobraclaw)** — Direct install  
 🔗 [GitHub](https://github.com/danieloleary/cobraclaw) — Source code  
-🔗 [cobraclaw.art](https://cobraclaw.art) — Landing page (DNS pending)  
-🔗 [GitHub Pages](https://danieloleary.github.io/cobraclaw/) — Preview
+🔗 [GitHub Pages](https://danieloleary.github.io/cobraclaw/) — Preview  
+🔗 [cobraclaw.art](https://cobraclaw.art) — **LIVE!** 🥋
 
 **Install:**
 ```bash
@@ -345,13 +355,9 @@ This activates **verbose training mode** - Miyagi style. "Walk on road, hm? Alwa
 
 ## 🎬 The Dojo Philosophy
 
-<div align="center">
+**Strike First. Strike Hard. No Mercy.**
 
-[![Cobra Kai - Strike First](https://img.youtube.com/vi/l1pZF7m1uO0/0.jpg)](https://www.youtube.com/watch?v=l1pZF7m1uO0)
-
-*Click to watch - Strike First compilation*
-
-</div>
+*[Watch: Cobra Kai - Strike First](https://www.youtube.com/watch?v=l1pZF7m1uO0)*
 
 **The three rules of the dojo:**
 1. 👊 Strike First
