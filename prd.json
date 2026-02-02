@@ -14,7 +14,7 @@
       "name": "Architecture Renames",
       "description": "Reframe terms – Agent → Student/Champion, Controller → Sensei, etc. Rename files/classes (e.g., server.ts → dojo.ts, skills → katas dir). Update docs (README, ARCHITECTURE.md) with table.",
       "test": "Code runs without breaks",
-      "done": false
+      "done": true
     },
     {
       "id": "3",
