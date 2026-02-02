@@ -1,6 +1,6 @@
 # 🦀🥋 How We Built Cobraclaw
 
-## Give your AI a dojo discipline.
+## Send your OpenClaw or Claw to Cobra Kai. Send your Claude to Kobra Kai.
 
 **The Story of a Bot That Watched Too Much Cobra Kai**
 

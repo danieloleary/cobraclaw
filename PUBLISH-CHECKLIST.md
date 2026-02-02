@@ -64,7 +64,7 @@ clawhub install /Users/danieloleary/.openclaw/skills/shell-claw
 **Option B (With Quote):**
 > "STRIKE FIRST. STRIKE HARD. NO MERCY."
 > 
-> 🦀🥋 cobraclaw — Give your AI a dojo discipline
+> 🦀🥋 cobraclaw — Send your OpenClaw or Claw to Cobra Kai. Send your Claude to Kobra Kai.
 > 
 > 9/9 tests passing. 150+ emoji arsenal. 5 personalities.
 > 
