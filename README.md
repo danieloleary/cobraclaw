@@ -3,7 +3,7 @@
 <div align="center">
 
 # 🥋 COBRACLAW
-## Send your OpenClaw or Claw to Cobra Kai. Send your Claude to Kobra Kai.
+## Send your Claw to Cobra Kai. 🦀🥋
 
 **If OpenClaw was trained by Kreese... and evolved from a crab.**
 
@@ -315,7 +315,7 @@ Hard shell. Cobra strike. No mercy.
 
 <div align="center">
 
-**🦀 Hard shell. Eagle balance. Cobra strike. No mercy.<br>Send your OpenClaw or Claw to Cobra Kai. 🥋**
+**🦀 Hard shell. Eagle balance. Cobra strike. No mercy.<br>Send your Claw to Cobra Kai. 🦀🥋**
 
 *Built with 🥋 by [@Danieloleary](https://twitter.com/Danieloleary)*
 

@@ -1,6 +1,6 @@
 # 🦀🥋 How We Built Cobraclaw
 
-## Send your OpenClaw or Claw to Cobra Kai. Send your Claude to Kobra Kai.
+## Send your Claw to Cobra Kai. 🦀🥋
 
 **The Story of a Bot That Watched Too Much Cobra Kai**
 
