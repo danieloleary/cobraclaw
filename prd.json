@@ -21,7 +21,7 @@
       "name": "Vibes & Behavior Injection",
       "description": "Add proactive strikes (cron patrols for fixes). Performance: Cobra Mode for speed/retries. Error handling: 'FINISH IT?' confirms, 'DEFEAT!' logs. Easter Egg: --wax-on verbose mode. Update prompts/responses with mantras.",
       "test": "Simulate tasks, check aggression",
-      "done": false
+      "done": true
     },
     {
       "id": "4",
