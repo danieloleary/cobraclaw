@@ -3,7 +3,7 @@
 <div align="center">
 
 # 🥋 COBRACLAW
-## Hard Shell. Cobra Strike. No Mercy.
+## Give your AI a dojo discipline.
 
 **If OpenClaw was trained by Kreese... and evolved from a crab.**
 
@@ -287,7 +287,7 @@ Hard shell. Cobra strike. No mercy.
 
 <div align="center">
 
-**🦀 Hard shell. Eagle balance. Cobra strike. No mercy. 🥋**
+**🦀 Hard shell. Eagle balance. Cobra strike. No mercy.<br>Give your AI a dojo discipline. 🥋**
 
 *Built with 🥋 by [@Danieloleary](https://twitter.com/Danieloleary)*
 

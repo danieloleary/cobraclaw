@@ -1,6 +1,8 @@
 # 🦀🥋 How We Built Cobraclaw
 
-## The Story of a Bot That Watched Too Much Cobra Kai
+## Give your AI a dojo discipline.
+
+**The Story of a Bot That Watched Too Much Cobra Kai**
 
 ---
 
